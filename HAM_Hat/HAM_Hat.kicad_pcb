@@ -13,7 +13,7 @@
   (title_block
     (title "Ham hat")
     (date 2021-12-03)
-    (rev v0.0.0)
+    (rev v1.0.0)
     (company "Logonex Bt.")
     (comment 1 "Drawn by HA5OGL")
   )
@@ -1680,7 +1680,7 @@
   (gr_text "HA 5 OGL" (at 123.3 69.2) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text v0.0.0 (at 110.6 103.7) (layer F.SilkS)
+  (gr_text v1.0.0 (at 110.6 103.7) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text HAM_hat (at 105.6 68.9) (layer F.SilkS)

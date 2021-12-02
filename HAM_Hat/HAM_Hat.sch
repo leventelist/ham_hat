@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "HAM hat"
 Date "2021-12-03"
-Rev "v0.0.0"
+Rev "v1.0.0"
 Comp "Logonex Bt."
 Comment1 "Drawn by HA5OGL"
 Comment2 ""
