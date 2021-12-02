@@ -1,6 +1,6 @@
-#Raspberry PI hat for radio amateurs
+# Raspberry PI hat for radio amateurs
 
-##It contains the following features:
+## It contains the following features:
 
  * 3A power supply with wide input voltage range: 8 to 35V
  * Ublox max8 GPS receiver for position and time synchronization
