@@ -1,5 +1,7 @@
 # Raspberry PI hat for radio amateurs
 
+![](https://github.com/leventelist/ham_hat/blob/master/images/HAM_Hat.png)
+
 ## History
 
 I've been doing lots of SOTA activations with Raspberry PI like SBCs, and there
