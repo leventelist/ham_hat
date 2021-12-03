@@ -12,7 +12,9 @@ was working, but it looked mess.
 This piece hardware integrates all needed equipment in one nice hat. It is designed
 to put the RPI in a metallic box to further isolate from RF signals.
 
-## It contains the following features:
+It was designed using KiCad.
+
+## Features
 
  * 3A power supply with wide input voltage range: 8 to 35V
  * Ublox max8 GPS receiver for position and time synchronization
