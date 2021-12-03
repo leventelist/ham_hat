@@ -40,6 +40,8 @@ to the audio interface (J105...J108).
 Grab the [schematic](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat.pdf)
 for a quick look.
 
+BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat_bom.csv).
+
 ## Connection to the radio
 
 The hat comes with a DB9 connector to connect up your rig. I wanted to have a screw lock
