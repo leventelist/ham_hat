@@ -217,12 +217,12 @@ $EndComp
 $Comp
 L power:GNDA #PWR0111
 U 1 1 61A1DD99
-P 13900 7550
-F 0 "#PWR0111" H 13900 7300 50  0001 C CNN
-F 1 "GNDA" H 13905 7377 50  0000 C CNN
-F 2 "" H 13900 7550 50  0001 C CNN
-F 3 "" H 13900 7550 50  0001 C CNN
-	1    13900 7550
+P 13900 6700
+F 0 "#PWR0111" H 13900 6450 50  0001 C CNN
+F 1 "GNDA" H 13905 6527 50  0000 C CNN
+F 2 "" H 13900 6700 50  0001 C CNN
+F 3 "" H 13900 6700 50  0001 C CNN
+	1    13900 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -833,8 +833,8 @@ Text Notes 12250 5800 0    50   ~ 0
 RX
 Text Notes 12250 7100 0    50   ~ 0
 TX
-Text Notes 14250 8350 0    50   ~ 0
-1...5 GND\n6 - Rig audio out (RX)\n7 - Rig audio in (TX)\n8 - PTT\n9 - NC\n
+Text Notes 14150 8750 0    50   ~ 0
+1 - Rig audio in (TX)\n2 - NC\n3 - PTT\n4 - NC\n5 - Rig audio out (RX)\n6 - GND\n7 - NC\n8 - NC\n9 - NC\n
 Text Notes 14600 9200 0    50   ~ 0
 Galvanically isolated
 Wire Wire Line
@@ -906,11 +906,11 @@ Wire Wire Line
 Wire Wire Line
 	11850 8550 11750 8550
 Wire Wire Line
-	12350 5950 13450 5950
+	12350 5950 13250 5950
 Wire Wire Line
-	13450 5950 13450 6600
+	13250 5950 13250 7300
 Wire Wire Line
-	13450 6600 14100 6600
+	13250 7300 14100 7300
 Wire Wire Line
 	12350 7250 12750 7250
 Wire Wire Line
@@ -918,35 +918,13 @@ Wire Wire Line
 Wire Wire Line
 	12900 7450 13450 7450
 Wire Wire Line
-	13450 7450 13450 6800
-Wire Wire Line
-	13450 6800 14100 6800
+	13450 7450 13450 6500
 Wire Wire Line
 	12450 8350 13650 8350
 Wire Wire Line
-	13650 8350 13650 7000
+	14100 6500 13450 6500
 Wire Wire Line
-	13650 7000 14100 7000
-Wire Wire Line
-	14100 6500 13900 6500
-Wire Wire Line
-	13900 6500 13900 6700
-Wire Wire Line
-	13900 7300 14100 7300
-Wire Wire Line
-	14100 7100 13900 7100
-Wire Wire Line
-	13900 7100 13900 7300
-Wire Wire Line
-	14100 6900 13900 6900
-Wire Wire Line
-	13900 6900 13900 7100
-Wire Wire Line
-	14100 6700 13900 6700
-Wire Wire Line
-	13900 6700 13900 6900
-Wire Wire Line
-	13900 7550 13900 7300
+	13900 6700 13900 6600
 Wire Wire Line
 	12350 7650 12750 7650
 Wire Wire Line
@@ -1126,10 +1104,6 @@ Connection ~ 2350 6700
 Connection ~ 2450 6700
 Connection ~ 2550 6700
 Connection ~ 2850 6700
-Connection ~ 13900 7100
-Connection ~ 13900 6900
-Connection ~ 13900 6700
-Connection ~ 13900 7300
 Connection ~ 12750 7650
 Connection ~ 11300 6350
 Connection ~ 7000 4000
@@ -1177,4 +1151,14 @@ NoConn ~ 3200 4150
 NoConn ~ 2000 4050
 NoConn ~ 2000 3950
 NoConn ~ 2000 3750
+Wire Wire Line
+	14100 6900 13650 6900
+Wire Wire Line
+	13650 6900 13650 8350
+Wire Wire Line
+	13900 6600 14100 6600
+NoConn ~ 14100 7100
+NoConn ~ 14100 7000
+NoConn ~ 14100 6800
+NoConn ~ 14100 6700
 $EndSCHEMATC
