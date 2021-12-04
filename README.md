@@ -86,7 +86,6 @@ are using it for HF, monitor your ALC, and make sure it is not active.
 
 J101 provides power connection. The maximum input voltage is 35Volts.
 
-
 ## GPS
 
 Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS signal is provided on GPIO18.
@@ -96,6 +95,8 @@ Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS
 ## FAN control
 
 PWM shall be enabled on GPIO13. TBD.
+
+If you don't want PWM control, short JP101, and the fan will spin at full power all times.
 
 ## Contact me if you have further questions
 
