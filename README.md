@@ -42,6 +42,13 @@ for a quick look.
 
 BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat_bom.csv).
 
+## Mechanics
+
+It is designed to fit on the Raspberry PI 4. Be awere, that if the heatsink on the CPU is too high, it migh
+conflict with the screws of the fan. If that happens, mont the heatsink 45 degrees.  
+
+![](https://github.com/leventelist/ham_hat/blob/master/images/hat_assembly.png)
+
 ## Connection to the radio
 
 The hat comes with a DB9 connector to connect up your rig. I wanted to have a screw lock
