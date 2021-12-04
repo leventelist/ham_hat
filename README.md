@@ -14,10 +14,10 @@ to put the RPI in a metallic box to further isolate from RF signals.
 
 It was designed using KiCad.
 
-## Application
+## Applications
 
-* HF portable digital modes (PSK, FT8, etc)
-* VHF AX.25 based modes (Packet, APRS, etc)
+* HF/VHF digital modes (PSK, FT8, etc)
+* HF/VHF AX.25 based modes (Packet, APRS, etc)
 
 ## Features
 
@@ -45,7 +45,7 @@ BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/H
 ## Mechanics
 
 It is designed to fit on the Raspberry PI 4. Be aware, that if the heatsink on the CPU is too high, it might
-conflict with the screws of the fan. If that happens, mount the heatsink 45 degrees.  
+conflict with the screws of the fan. If that happens, mount the heatsink 45 degrees.
 
 ![](https://github.com/leventelist/ham_hat/blob/master/images/hat_assembly.png)
 
@@ -56,11 +56,11 @@ connector, and this was the best choice. The pin out looks like this.
 
 | Signal name | Pin of the DB9 | Comment                  |
 |-------------|----------------|--------------------------|
-| TX audio    | 1              | Sound input of your rig  |
+| TX audio    | 1              | Audio input of your rig  |
 | NC          | 2              | Not connected            |
 | PTT         | 3              | PTT input of your rig    |
 | NC          | 4              | Not connected            |
-| RX audio    | 5              | Sound output of your rig |
+| RX audio    | 5              | Audio output of your rig |
 | GND         | 6              | Audio ground             |
 | NC          | 7              | Not connected            |
 | NC          | 8              | Not connected            |
