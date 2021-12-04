@@ -49,11 +49,17 @@ connector, and this was the best choice. The pin out looks like this.
 
 | Signal name | Pin of the DB9 | Comment                  |
 |-------------|----------------|--------------------------|
-| GND         | 1,2,3,4,5      | Audio ground             |
-| RX audio    | 6              | Sound output of your rig |
-| TX audio    | 7              | Sound input of your rig  |
-| PTT         | 8              | PTT input of your rig    |
+| TX audio    | 1              | Sound input of your rig  |
+| NC          | 2              | Not connected            |
+| PTT         | 3              | PTT input of your rig    |
+| NC          | 4              | Not connected            |
+| RX audio    | 5              | Sound output of your rig |
+| GND         | 6              | Audio ground             |
+| NC          | 7              | Not connected            |
+| NC          | 8              | Not connected            |
 | NC          | 9              | Not connected            |
+
+PTT is connected to GPIO17. It is buffered, and logic one means transmit.
 
 ## Connection to the soundcard
 
@@ -63,7 +69,7 @@ connector, and this was the best choice. The pin out looks like this.
 | TX audio    | J107                               | Speaker output of your soundcard |
 | GND         | J106, J108                         | Audio ground                     |
 
-## Setting up
+## Setting up audio levels
 
 There are two potentiometers (RV101 and RV102) to adjust sound level in RX and TX direction respectively. Adjust TX and RX
 audio levels to a certain point where you are not over driving either input. If you
@@ -76,7 +82,13 @@ J101 provides power connection. The maximum input voltage is 35Volts.
 
 ## GPS
 
-Connect your passive or active GPS antenna to J104. Use 3.3V active antenna.
+Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS signal is provided on GPIO18.
+
+[Here](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/) is an excellent article how to set up GPIO-PPS for ntpd.
+
+## FAN control
+
+PWM shall be enabled on GPIO13. TBD.
 
 ## Contact me if you have further questions
 
