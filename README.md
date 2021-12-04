@@ -44,8 +44,8 @@ BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/H
 
 ## Mechanics
 
-It is designed to fit on the Raspberry PI 4. Be awere, that if the heatsink on the CPU is too high, it migh
-conflict with the screws of the fan. If that happens, mont the heatsink 45 degrees.  
+It is designed to fit on the Raspberry PI 4. Be aware, that if the heatsink on the CPU is too high, it might
+conflict with the screws of the fan. If that happens, mount the heatsink 45 degrees.  
 
 ![](https://github.com/leventelist/ham_hat/blob/master/images/hat_assembly.png)
 
