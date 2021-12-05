@@ -698,6 +698,146 @@ F 4 "351" V 5850 2000 50  0001 C CNN "id"
 	1    5850 2000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP102
+U 1 1 61C9F089
+P 12150 5350
+F 0 "JP102" H 11950 5450 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 12195 5418 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 5350 50  0001 C CNN
+F 3 "~" H 12150 5350 50  0001 C CNN
+F 4 "0" V 12150 5350 50  0001 C CNN "id"
+	1    12150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP103
+U 1 1 61CA0774
+P 12150 6600
+F 0 "JP103" H 11950 6700 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 12195 6668 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 6600 50  0001 C CNN
+F 3 "~" H 12150 6600 50  0001 C CNN
+F 4 "0" V 12150 6600 50  0001 C CNN "id"
+	1    12150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP104
+U 1 1 61CA133B
+P 12150 7800
+F 0 "JP104" H 11950 7900 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 12195 7868 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 7800 50  0001 C CNN
+F 3 "~" H 12150 7800 50  0001 C CNN
+F 4 "0" V 12150 7800 50  0001 C CNN "id"
+	1    12150 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 61CA2409
+P 11900 7800
+F 0 "#PWR0124" H 11900 7550 50  0001 C CNN
+F 1 "GND" V 11905 7672 50  0000 R CNN
+F 2 "" H 11900 7800 50  0001 C CNN
+F 3 "" H 11900 7800 50  0001 C CNN
+	1    11900 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0125
+U 1 1 61CA2EAF
+P 12450 7800
+F 0 "#PWR0125" H 12450 7550 50  0001 C CNN
+F 1 "GNDA" H 12455 7627 50  0000 C CNN
+F 2 "" H 12450 7800 50  0001 C CNN
+F 3 "" H 12450 7800 50  0001 C CNN
+	1    12450 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 61AFBA00
+P 7300 10500
+F 0 "#PWR0127" H 7300 10250 50  0001 C CNN
+F 1 "GND" H 7305 10327 50  0000 C CNN
+F 2 "" H 7300 10500 50  0001 C CNN
+F 3 "" H 7300 10500 50  0001 C CNN
+	1    7300 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer_RTC:DS3231MZ U104
+U 1 1 61B0BDD6
+P 7300 10000
+F 0 "U104" H 7500 10500 50  0000 C CNN
+F 1 "DS3231MZ+TRL" H 7650 10400 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 9500 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 7300 9400 50  0001 C CNN
+F 4 "760" H 7300 10000 50  0001 C CNN "id"
+	1    7300 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT101
+U 1 1 61B14CA8
+P 6450 9350
+F 0 "BT101" H 6568 9446 50  0000 L CNN
+F 1 "NCW254-02S" H 6568 9355 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" V 6450 9410 50  0001 C CNN
+F 3 "~" V 6450 9410 50  0001 C CNN
+F 4 "320" H 6450 9350 50  0001 C CNN "id"
+	1    6450 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 61B2A75F
+P 6450 9450
+F 0 "#PWR0126" H 6450 9200 50  0001 C CNN
+F 1 "GND" H 6455 9277 50  0000 C CNN
+F 2 "" H 6450 9450 50  0001 C CNN
+F 3 "" H 6450 9450 50  0001 C CNN
+	1    6450 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R107
+U 1 1 61B2B4A9
+P 6000 9100
+F 0 "R107" H 6070 9146 50  0000 L CNN
+F 1 "10k" H 6070 9055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 9100 50  0001 C CNN
+F 3 "~" H 6000 9100 50  0001 C CNN
+F 4 "183" H 6000 9100 50  0001 C CNN "id"
+	1    6000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 61B2BA4E
+P 5700 9100
+F 0 "R106" H 5770 9146 50  0000 L CNN
+F 1 "10k" H 5770 9055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 9100 50  0001 C CNN
+F 3 "~" H 5700 9100 50  0001 C CNN
+F 4 "183" H 5700 9100 50  0001 C CNN "id"
+	1    5700 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J109
+U 1 1 61B780AA
+P 10150 7050
+F 0 "J109" H 10068 6625 50  0000 C CNN
+F 1 "socket" H 10068 6716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10150 7050 50  0001 C CNN
+F 3 "~" H 10150 7050 50  0001 C CNN
+F 4 "0" H 10150 7050 50  0001 C CNN "id"
+	1    10150 7050
+	-1   0    0    1   
+$EndComp
 Text Notes 1050 9800 0    118  ~ 24
 Mounting Holes
 Text Notes 1650 2000 0    118  ~ 24
@@ -766,6 +906,20 @@ Text Notes 14150 8750 0    50   ~ 0
 1 - Rig audio in (TX)\n2 - NC\n3 - PTT\n4 - NC\n5 - Rig audio out (RX)\n6 - GND\n7 - NC\n8 - NC\n9 - NC\n
 Text Notes 14600 9200 0    50   ~ 0
 Galvanically isolated
+Text Notes 12250 9150 0    50   ~ 0
+Short JP102, JP103 and JP104 for wider audio.\nIf you do, don't populate T101 and T102.\nYou'll lose isolation.
+Text Label 800  2350 0    50   ~ 0
+SDA
+Text Label 800  2450 0    50   ~ 0
+SCL
+Text Label 5350 9900 0    50   ~ 0
+SDA
+Text Label 5350 9800 0    50   ~ 0
+SCL
+Text Label 7300 9150 0    60   ~ 0
+P3V3_HAT
+Text Label 6300 8950 0    60   ~ 0
+P3V3_HAT
 Wire Wire Line
 	2000 4150 800  4150
 Wire Wire Line
@@ -1028,6 +1182,80 @@ Wire Wire Line
 	11750 8550 11750 8850
 Wire Wire Line
 	6000 2000 6200 2000
+Wire Wire Line
+	10700 8350 11050 8350
+Wire Wire Line
+	12450 7800 12300 7800
+Wire Wire Line
+	12000 7800 11900 7800
+Wire Wire Line
+	12000 6600 11550 6600
+Wire Wire Line
+	11550 6600 11550 6950
+Wire Wire Line
+	11550 6950 11300 6950
+Wire Wire Line
+	12300 6600 12600 6600
+Wire Wire Line
+	12600 6600 12600 6950
+Wire Wire Line
+	12600 6950 14100 6950
+Wire Wire Line
+	12000 5350 11500 5350
+Wire Wire Line
+	11500 5350 11500 5700
+Wire Wire Line
+	11500 5700 11950 5700
+Wire Wire Line
+	12300 5350 12600 5350
+Wire Wire Line
+	12600 5350 12600 5700
+Wire Wire Line
+	12600 5700 12750 5700
+Wire Wire Line
+	2000 2350 800  2350
+Wire Wire Line
+	800  2450 2000 2450
+Wire Wire Line
+	5350 9900 6000 9900
+Wire Wire Line
+	7300 10500 7300 10400
+Wire Wire Line
+	7200 9150 6450 9150
+Wire Wire Line
+	7200 9600 7200 9150
+Wire Wire Line
+	5700 9250 5700 9800
+Wire Wire Line
+	5350 9800 5700 9800
+Wire Wire Line
+	5700 9800 6800 9800
+Wire Wire Line
+	6000 9250 6000 9900
+Wire Wire Line
+	6000 9900 6800 9900
+Wire Wire Line
+	5700 8950 6000 8950
+Wire Wire Line
+	6000 8950 6300 8950
+Wire Wire Line
+	10700 5700 10700 6850
+Wire Wire Line
+	10700 6850 10350 6850
+Wire Wire Line
+	10700 5700 11500 5700
+Wire Wire Line
+	10350 6950 10450 6950
+Wire Wire Line
+	10450 6950 10450 7000
+Wire Wire Line
+	10450 7050 10350 7050
+Wire Wire Line
+	10450 7000 10600 7000
+Wire Wire Line
+	10450 7000 10450 7050
+Wire Wire Line
+	10350 7150 11150 7150
 Connection ~ 1800 6100
 Connection ~ 2350 6700
 Connection ~ 2450 6700
@@ -1049,6 +1277,14 @@ Connection ~ 11350 9050
 Connection ~ 9400 2100
 Connection ~ 10350 2400
 Connection ~ 6200 2000
+Connection ~ 11550 6950
+Connection ~ 12600 6950
+Connection ~ 11500 5700
+Connection ~ 12600 5700
+Connection ~ 5700 9800
+Connection ~ 6000 9900
+Connection ~ 6000 8950
+Connection ~ 10450 7000
 NoConn ~ 8850 1700
 NoConn ~ 8850 1800
 NoConn ~ 8850 1900
@@ -1082,245 +1318,9 @@ NoConn ~ 14100 6750
 NoConn ~ 14100 6650
 NoConn ~ 14100 6450
 NoConn ~ 14100 6350
+NoConn ~ 7800 9800
+NoConn ~ 7800 10100
+NoConn ~ 6800 10200
 Wire Wire Line
-	10700 8350 11050 8350
-$Comp
-L Jumper:SolderJumper_2_Open JP102
-U 1 1 61C9F089
-P 12150 5350
-F 0 "JP102" H 11950 5450 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 12195 5418 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 5350 50  0001 C CNN
-F 3 "~" H 12150 5350 50  0001 C CNN
-F 4 "0" V 12150 5350 50  0001 C CNN "id"
-	1    12150 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP103
-U 1 1 61CA0774
-P 12150 6600
-F 0 "JP103" H 11950 6700 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 12195 6668 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 6600 50  0001 C CNN
-F 3 "~" H 12150 6600 50  0001 C CNN
-F 4 "0" V 12150 6600 50  0001 C CNN "id"
-	1    12150 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP104
-U 1 1 61CA133B
-P 12150 7800
-F 0 "JP104" H 11950 7900 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 12195 7868 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12150 7800 50  0001 C CNN
-F 3 "~" H 12150 7800 50  0001 C CNN
-F 4 "0" V 12150 7800 50  0001 C CNN "id"
-	1    12150 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 61CA2409
-P 11900 7800
-F 0 "#PWR0124" H 11900 7550 50  0001 C CNN
-F 1 "GND" V 11905 7672 50  0000 R CNN
-F 2 "" H 11900 7800 50  0001 C CNN
-F 3 "" H 11900 7800 50  0001 C CNN
-	1    11900 7800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR0125
-U 1 1 61CA2EAF
-P 12450 7800
-F 0 "#PWR0125" H 12450 7550 50  0001 C CNN
-F 1 "GNDA" H 12455 7627 50  0000 C CNN
-F 2 "" H 12450 7800 50  0001 C CNN
-F 3 "" H 12450 7800 50  0001 C CNN
-	1    12450 7800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12450 7800 12300 7800
-Wire Wire Line
-	12000 7800 11900 7800
-Wire Wire Line
-	12000 6600 11550 6600
-Wire Wire Line
-	11550 6600 11550 6950
-Connection ~ 11550 6950
-Wire Wire Line
-	11550 6950 11300 6950
-Wire Wire Line
-	12300 6600 12600 6600
-Wire Wire Line
-	12600 6600 12600 6950
-Connection ~ 12600 6950
-Wire Wire Line
-	12600 6950 14100 6950
-Wire Wire Line
-	12000 5350 11500 5350
-Wire Wire Line
-	11500 5350 11500 5700
-Connection ~ 11500 5700
-Wire Wire Line
-	11500 5700 11950 5700
-Wire Wire Line
-	12300 5350 12600 5350
-Wire Wire Line
-	12600 5350 12600 5700
-Connection ~ 12600 5700
-Wire Wire Line
-	12600 5700 12750 5700
-Text Notes 12250 9150 0    50   ~ 0
-Short JP102, JP103 and JP104 for wider audio.\nIf you do, don't populate T101 and T102.\nYou'll lose isolation.
-Text Label 800  2350 0    50   ~ 0
-SDA
-Text Label 800  2450 0    50   ~ 0
-SCL
-Wire Wire Line
-	2000 2350 800  2350
-Wire Wire Line
-	800  2450 2000 2450
-Text Label 5350 9900 0    50   ~ 0
-SDA
-Text Label 5350 9800 0    50   ~ 0
-SCL
-Wire Wire Line
-	5350 9900 6000 9900
-$Comp
-L power:GND #PWR0127
-U 1 1 61AFBA00
-P 7000 10500
-F 0 "#PWR0127" H 7000 10250 50  0001 C CNN
-F 1 "GND" H 7005 10327 50  0000 C CNN
-F 2 "" H 7000 10500 50  0001 C CNN
-F 3 "" H 7000 10500 50  0001 C CNN
-	1    7000 10500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 10500 7000 10400
-Wire Wire Line
-	6900 9150 6450 9150
-$Comp
-L Timer_RTC:DS3231MZ U104
-U 1 1 61B0BDD6
-P 7000 10000
-F 0 "U104" H 7200 10500 50  0000 C CNN
-F 1 "DS3231MZ" H 7350 10400 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7000 9500 50  0001 C CNN
-F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 7000 9400 50  0001 C CNN
-	1    7000 10000
-	1    0    0    -1  
-$EndComp
-Text Label 7050 9400 0    60   ~ 0
-P3V3_HAT
-Wire Wire Line
-	7050 9400 7000 9400
-Wire Wire Line
-	7000 9400 7000 9600
-$Comp
-L Device:Battery_Cell BT101
-U 1 1 61B14CA8
-P 6450 9350
-F 0 "BT101" H 6568 9446 50  0000 L CNN
-F 1 "Battery_Cell" H 6568 9355 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" V 6450 9410 50  0001 C CNN
-F 3 "~" V 6450 9410 50  0001 C CNN
-	1    6450 9350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 9600 6900 9150
-$Comp
-L power:GND #PWR0126
-U 1 1 61B2A75F
-P 6450 9450
-F 0 "#PWR0126" H 6450 9200 50  0001 C CNN
-F 1 "GND" H 6455 9277 50  0000 C CNN
-F 2 "" H 6450 9450 50  0001 C CNN
-F 3 "" H 6450 9450 50  0001 C CNN
-	1    6450 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R107
-U 1 1 61B2B4A9
-P 6000 9100
-F 0 "R107" H 6070 9146 50  0000 L CNN
-F 1 "10k" H 6070 9055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 9100 50  0001 C CNN
-F 3 "~" H 6000 9100 50  0001 C CNN
-F 4 "183" H 6000 9100 50  0001 C CNN "id"
-	1    6000 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R106
-U 1 1 61B2BA4E
-P 5700 9100
-F 0 "R106" H 5770 9146 50  0000 L CNN
-F 1 "10k" H 5770 9055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 9100 50  0001 C CNN
-F 3 "~" H 5700 9100 50  0001 C CNN
-F 4 "183" H 5700 9100 50  0001 C CNN "id"
-	1    5700 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 9250 5700 9800
-Wire Wire Line
-	5350 9800 5700 9800
-Connection ~ 5700 9800
-Wire Wire Line
-	5700 9800 6500 9800
-Wire Wire Line
-	6000 9250 6000 9900
-Connection ~ 6000 9900
-Wire Wire Line
-	6000 9900 6500 9900
-Text Label 6300 8950 0    60   ~ 0
-P3V3_HAT
-Wire Wire Line
-	5700 8950 6000 8950
-Connection ~ 6000 8950
-Wire Wire Line
-	6000 8950 6300 8950
-NoConn ~ 7500 9800
-NoConn ~ 7500 10100
-NoConn ~ 6500 10200
-$Comp
-L Connector_Generic:Conn_01x04 J109
-U 1 1 61B780AA
-P 10150 7050
-F 0 "J109" H 10068 6625 50  0000 C CNN
-F 1 "Conn_01x05" H 10068 6716 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10150 7050 50  0001 C CNN
-F 3 "~" H 10150 7050 50  0001 C CNN
-F 4 "544" H 10150 7050 50  0001 C CNN "id"
-	1    10150 7050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10700 5700 10700 6850
-Wire Wire Line
-	10700 6850 10350 6850
-Wire Wire Line
-	10700 5700 11500 5700
-Wire Wire Line
-	10350 6950 10450 6950
-Wire Wire Line
-	10450 6950 10450 7000
-Wire Wire Line
-	10450 7050 10350 7050
-Wire Wire Line
-	10450 7000 10600 7000
-Connection ~ 10450 7000
-Wire Wire Line
-	10450 7000 10450 7050
-Wire Wire Line
-	10350 7150 11150 7150
+	7300 9150 7300 9600
 $EndSCHEMATC

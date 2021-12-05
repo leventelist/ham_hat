@@ -2,6 +2,7 @@
 
 ![](https://github.com/leventelist/ham_hat/blob/master/images/HAM_Hat.png)
 
+
 ## History
 
 I've been doing lots of SOTA activations with Raspberry PI like SBCs, and there
@@ -14,10 +15,12 @@ to put the RPI in a metallic box to further isolate from RF signals.
 
 It was designed using KiCad.
 
+
 ## Applications
 
 * HF/VHF digital modes (PSK, FT8, etc)
 * HF/VHF AX.25 based modes (Packet, APRS, etc)
+
 
 ## Features
 
@@ -26,14 +29,18 @@ It was designed using KiCad.
  * Inductive audio couplers to minimize GND loops. Up to 4kHz.
  * PWM controlled cooling fan
  * PTT from the PI
+ * RTC
 
 GPS antenna is not integrated in the device, so an external antenna connector is
 mounted on the PCB.
 
-The sound card is not included, and you have to use an external, cheap USB soundcard.
-I use [this](https://www.axagon.eu/en/produkty/ada-17) particular device with good
-results. I usually break the plastic housing, and solder a shielded cable directly
-to the audio interface (J105...J108).
+The sound card is not included. I use
+[this](https://www.axagon.eu/en/produkty/ada-17) particular device with good
+results. I usually break the plastic housing, and solder a shielded cable
+directly to the audio interface (J109).
+
+The GPS is needed for APRS and time synchronization. There is an onbard RTC to have some redundancy.
+
 
 ## Schematic
 
@@ -41,6 +48,7 @@ Grab the [schematic](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_
 for a quick look.
 
 BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat_bom.csv).
+
 
 ## Mechanics
 
@@ -68,13 +76,17 @@ connector, and this was the best choice. The pin out looks like this.
 
 PTT is connected to GPIO17. It is buffered, and logic one means transmit.
 
+
 ## Connection to the soundcard
 
-| Signal name | Direct solder connector on the PCB | Comment                          |
-|-------------|------------------------------------|----------------------------------|
-| RX audio    | J105                               | Mic input of your soundcard      |
-| TX audio    | J107                               | Speaker output of your soundcard |
-| GND         | J106, J108                         | Audio ground                     |
+J109 provides connection to the soundcard.
+
+| Signal name | Pin of J109            | Comment                          |
+|-------------|------------------------|----------------------------------|
+| RX audio    | 1                      | Mic input of your soundcard      |
+| TX audio    | 4                      | Speaker output of your soundcard |
+| GND         | 2, 3                   | Audio ground                     |
+
 
 ## Setting up audio levels
 
@@ -82,9 +94,11 @@ There are two potentiometers (RV101 and RV102) to adjust sound level in RX and T
 audio levels to a certain point where you are not over driving either input. If you
 are using it for HF, monitor your ALC, and make sure it is not active.
 
+
 ## Power connection
 
 J101 provides power connection. The maximum input voltage is 35Volts.
+
 
 ## GPS
 
@@ -92,12 +106,19 @@ Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS
 
 [Here](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/) is an excellent article how to set up GPIO-PPS for ntpd.
 
+
+## RTC
+
+DS3231 based precision RTC is provided for backup if the GPS can't provide accurate timing. It has internal temperature compensated crystal oscillator.
+
+[RTC](https://thepihut.com/blogs/raspberry-pi-tutorials/17209332-adding-a-real-time-clock-to-your-raspberry-pi)
+
+Connect a 3V battery to BT101 for offline RTC operation.
+
+
 ## FAN control
 
 PWM shall be enabled on GPIO13. TBD.
 
 If you don't want PWM control, short JP101, and the fan will spin at full power all times.
 
-## Contact me if you have further questions
-
-leventelist@gmail.com
