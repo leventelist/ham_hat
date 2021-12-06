@@ -1,2 +1,3 @@
+Battery: 1892670 (Idea is to use heatshrink tube and some wire)
 Battery holder: 3583203
 Hetsink: 1211701
