@@ -6,14 +6,14 @@
 ## History
 
 I've been doing lots of SOTA activations with Raspberry PI like SBCs, and there
-where always issues, like RF interference, and power supply shorts, so I started to
+where always issues, like RF interference, and power supply shorts. I started to
 add things like galvanically decoupled audio interface, a step down power supply. It
 was working, but it looked like a mess.
 
-This piece hardware integrates all needed equipment in one nice hat. It is designed
+This piece of hardware integrates all needed equipment in one nice hat. It is designed
 to put the RPI in a metallic box to further isolate from RF signals.
 
-It was designed using KiCad.
+It was designed using [KiCad](https://www.kicad.org/).
 
 
 ## Applications
@@ -111,7 +111,7 @@ Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS
 
 DS3231 based precision RTC is provided for backup if the GPS can't provide accurate timing. It has internal temperature compensated crystal oscillator.
 
-[RTC](https://thepihut.com/blogs/raspberry-pi-tutorials/17209332-adding-a-real-time-clock-to-your-raspberry-pi)
+A nice tutorial how to set up the [RTC](https://thepihut.com/blogs/raspberry-pi-tutorials/17209332-adding-a-real-time-clock-to-your-raspberry-pi) on an RPI.
 
 Connect a 3V battery to BT101 for offline RTC operation.
 
