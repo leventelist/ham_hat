@@ -1,3 +1,10 @@
+Accessories
+
+
+These items needed for the hat for full functionality. All from Farnell.
+
 Battery: 1892670 (Idea is to use heatshrink tube and some wire)
 Battery holder: 3583203
-Hetsink: 1211701
+Heatsink: 1211701
+Standoff: 971100151
+RPI4: 3369503
