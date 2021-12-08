@@ -834,7 +834,7 @@ F 0 "J109" H 10068 6625 50  0000 C CNN
 F 1 "socket" H 10068 6716 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10150 7050 50  0001 C CNN
 F 3 "~" H 10150 7050 50  0001 C CNN
-F 4 "0" H 10150 7050 50  0001 C CNN "id"
+F 4 "761" H 10150 7050 50  0001 C CNN "id"
 	1    10150 7050
 	-1   0    0    1   
 $EndComp
