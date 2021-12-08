@@ -126,7 +126,7 @@ If you don't want PWM control, short JP101, and the fan will spin at full power 
 
 These items needed for the hat for full functionality.
 
-All sourced from [https://www.farnell.com/](Farnell), unless othervise noted. (Sorry, I'm Hungary based.)
+All sourced from [Farnell](https://www.farnell.com/), unless othervise noted. (Sorry, I'm Hungary based.)
 
 | Item | Source designator        | Comment |
 |--------------------|------------|---------|
@@ -136,7 +136,6 @@ All sourced from [https://www.farnell.com/](Farnell), unless othervise noted. (S
 | Standoff           | 971100151 | |
 | Mounting screws M2.5x6 | | |
 | GPS antenna        | [this](https://www.soselectronic.hu/products/2j/2j431gmp-250rg174-c20n-173902) or [this](https://www.soselectronic.hu/products/2j/2j0801b-c814g-217598) | |
-
 | RPI4 | 3369503 (8GB) or 3051887 (4GB) | |
 | Monitor| [Ebay](https://www.ebay.com/itm/353758771148?_trkparms=ispr%3D1&hash=item525daa77cc:g:jNQAAOSwnmlhhkpn&amdata=enc%3AAQAGAAACoPYe5NmHp%252B2JMhMi7yxGiTJkPrKr5t53CooMSQt2orsSd0ReTLyM7cxPnI6zs468EDJJHdbu7%252F6aAGgDwzooo3WFCnsE6WY2NN3WIFz%252BU3j%252B6nlMSYOqthKl8%252BB0CNXkHJGfWJwzf20ZY2tdDWUhthRak%252B0O%252FHuC9ltiij5XgROuZ1Yt7ahYbZ19ddFFTaniueENCnYQ1aBhlktfzWv7xNvLbyiVUMCgdXy2uwy0Qm1PC1w8PtdFCrKUjBzWedhAdATUyusA%252BLFfS8lKdAnUeEkUiXBHqDyRACtOih8HyopSoYK%252BuetmxNqJMW1yetVzEuVG55kdREQp8NK3DiaAyJ3VxZ2eCQS7MBWAslEs%252BcjPr5pLBJmvXicOdQsxG78lY3RixTMapBEXkMyMhr8CZ%252B%252BUgXa6K6nssZMYzkzb8xh6HKPf1HGRgakrkSU8iv0Jb0qSPHQQbUU%252BDDCgloGfOgyy3KP%252FVC8YO8aAXQEpuWYDxkgLVD9bG29n%252FxRT5bK91LAbViZxXBj7t3CMtKnw2FXJZp9tf8PF83bIWHzxw3%252FWPs3Q16F6D8dQrHa7%252FQKrBkX9ECfOG3J8w%252BXIaV0JdErB2c39fbNJsezMG0qO7EeJPmYWaZ4isKdigC4pZBSkcRq6YpXnZEsE%252FZbSkspYbLs5C%252F9QS17yAUWT6I9ebc9k7iy9tjIt2p2E%252F8tQXl7IEDUfLabC98laQ883Xs2%252BFUGj8w%252B%252FzyhRREPPlbA7segxjevzekGn9GUOD6kM6yCYgyqf3eMCqXgKofQIa6dmLZviddtP9L0a4A2mYfWhoSsyY%252FoBn6oAKnoTd9ymHzWRMWE5W5Act9JD6YpZT0wU8zPgG6x9%252BwGaIeGsotEsk1Bm2ccUKsKW1YO18BFmLPTsdw%253D%253D%7Cclp%3A2334524%7Ctkp%3ABFBM_P_ZwrNf)
 | Keyboard | | |
