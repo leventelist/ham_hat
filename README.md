@@ -130,15 +130,16 @@ All sourced from [Farnell](https://www.farnell.com/), unless othervise noted. (S
 
 | Item | Source designator        | Comment |
 |--------------------|------------|---------|
-| RTC Battery        | 1892670    | The idea is to use heatshrink tube and some wire |
-| RTC Battery holder | 3583203    |  |
+| RTC Battery        | 1892670    | The idea is to use heatshrink tube and some wires. |
+| RTC Battery holder | 3583203    | External battery holder for CR2032 |
 | Heatsink           | 1211701 or https://www.alza.hu/raspberry-pi-rb-hutoborda-d4147799.htm?o=21 ||
 | Standoff           | 971100151 | |
 | Mounting screws M2.5x6 | | |
-| GPS antenna        | [this](https://www.soselectronic.hu/products/2j/2j431gmp-250rg174-c20n-173902) or [this](https://www.soselectronic.hu/products/2j/2j0801b-c814g-217598) | |
+| GPS antenna        | [This](https://www.soselectronic.hu/products/2j/2j431gmp-250rg174-c20n-173902) or [this](https://www.soselectronic.hu/products/2j/2j0801b-c814g-217598) | Use 3V active antenna |
 | RPI4 | 3369503 (8GB) or 3051887 (4GB) | |
+| USB audio interface| [Alza](https://www.alza.hu/axagon-ada-10-mini-d1470921.htm) | Any other do the job. Check Linux driver availability. |
 | Monitor| [Ebay](https://www.ebay.com/itm/353758771148?_trkparms=ispr%3D1&hash=item525daa77cc:g:jNQAAOSwnmlhhkpn&amdata=enc%3AAQAGAAACoPYe5NmHp%252B2JMhMi7yxGiTJkPrKr5t53CooMSQt2orsSd0ReTLyM7cxPnI6zs468EDJJHdbu7%252F6aAGgDwzooo3WFCnsE6WY2NN3WIFz%252BU3j%252B6nlMSYOqthKl8%252BB0CNXkHJGfWJwzf20ZY2tdDWUhthRak%252B0O%252FHuC9ltiij5XgROuZ1Yt7ahYbZ19ddFFTaniueENCnYQ1aBhlktfzWv7xNvLbyiVUMCgdXy2uwy0Qm1PC1w8PtdFCrKUjBzWedhAdATUyusA%252BLFfS8lKdAnUeEkUiXBHqDyRACtOih8HyopSoYK%252BuetmxNqJMW1yetVzEuVG55kdREQp8NK3DiaAyJ3VxZ2eCQS7MBWAslEs%252BcjPr5pLBJmvXicOdQsxG78lY3RixTMapBEXkMyMhr8CZ%252B%252BUgXa6K6nssZMYzkzb8xh6HKPf1HGRgakrkSU8iv0Jb0qSPHQQbUU%252BDDCgloGfOgyy3KP%252FVC8YO8aAXQEpuWYDxkgLVD9bG29n%252FxRT5bK91LAbViZxXBj7t3CMtKnw2FXJZp9tf8PF83bIWHzxw3%252FWPs3Q16F6D8dQrHa7%252FQKrBkX9ECfOG3J8w%252BXIaV0JdErB2c39fbNJsezMG0qO7EeJPmYWaZ4isKdigC4pZBSkcRq6YpXnZEsE%252FZbSkspYbLs5C%252F9QS17yAUWT6I9ebc9k7iy9tjIt2p2E%252F8tQXl7IEDUfLabC98laQ883Xs2%252BFUGj8w%252B%252FzyhRREPPlbA7segxjevzekGn9GUOD6kM6yCYgyqf3eMCqXgKofQIa6dmLZviddtP9L0a4A2mYfWhoSsyY%252FoBn6oAKnoTd9ymHzWRMWE5W5Act9JD6YpZT0wU8zPgG6x9%252BwGaIeGsotEsk1Bm2ccUKsKW1YO18BFmLPTsdw%253D%253D%7Cclp%3A2334524%7Ctkp%3ABFBM_P_ZwrNf)
-| Keyboard | | |
+| Keyboard | https://www.pcland.hu/genius-luxemate-100-usb-fekete-hun-billentyuzet-31300725113 | Any USB Keyboard. I use the one without keypad, for its compact size. |
 | Mice | | |
 | SD card with Raspbian image. | | |
 | uHDMI to HDMI cable | [Alza](https://www.alza.hu/vention-micro-hdmi-to-hdmi-cable-2m-black-d5891200.htm?o=1) | |
