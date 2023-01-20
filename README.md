@@ -5,7 +5,7 @@
 
 ## History
 
-I've been doing lots of SOTA activations with Raspberry PI like SBCs, and there
+I've been doing a lot of SOTA activations with Raspberry PI like SBCs, and there
 where always issues, like RF interference, and power supply shorts. I started to
 add things like galvanically decoupled audio interface, a step down power supply. It
 was working, but it looked like a mess.
