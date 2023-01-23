@@ -13,7 +13,7 @@ was working, but it looked like a mess.
 This piece of hardware integrates all needed equipment in one nice hat. It is designed
 to put the RPI in a metallic box to further isolate from RF signals.
 
-It was designed using [KiCad](https://www.kicad.org/).
+It was designed using [KiCad](https://www.kicad.org/) v7.
 
 
 ## Applications
@@ -28,7 +28,8 @@ It was designed using [KiCad](https://www.kicad.org/).
  * Ublox MAX-8 GPS receiver for position and time synchronization
  * Inductive audio couplers to minimize GND loops. Up to 4kHz.
  * PWM controlled cooling fan
- * PTT from the PI
+ * GPIO controlled PTT from the PI
+ * GPIO controlled CW key from the PI
  * RTC
 
 GPS antenna is not integrated in the device, so an external antenna connector is
@@ -65,7 +66,7 @@ connector, and this was the best choice. The pin out looks like this.
 | Signal name | Pin of the DB9 | Comment                  |
 |-------------|----------------|--------------------------|
 | TX audio    | 1              | Audio input of your rig  |
-| NC          | 2              | Not connected            |
+| KEY         | 2              | CW key of the rig        |
 | PTT         | 3              | PTT input of your rig    |
 | NC          | 4              | Not connected            |
 | RX audio    | 5              | Audio output of your rig |
@@ -83,9 +84,9 @@ J109 provides connection to the soundcard.
 
 | Signal name | Pin of J109            | Comment                          |
 |-------------|------------------------|----------------------------------|
-| RX audio    | 1                      | Mic input of your soundcard      |
+| RX audio    | 3                      | Mic input of your soundcard      |
 | TX audio    | 4                      | Speaker output of your soundcard |
-| GND         | 2, 3                   | Audio ground                     |
+| GND         | 1,2                   | Audio ground                     |
 
 
 ## Setting up audio levels

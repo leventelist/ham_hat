@@ -446,8 +446,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "HAM_Hat.step",
+      "vrml": "HAM_Hat.wrl"
     },
     "page_layout_descr_file": ""
   },
