@@ -3285,7 +3285,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7fed509-963b-4248-bccc-86f975b1eabf)
   )
-  (text "1 - Rig audio in (TX)\n2 - NC\n3 - PTT\n4 - NC\n5 - Rig audio out (RX)\n6 - GND\n7 - NC\n8 - NC\n9 - NC\n"
+  (text "1 - Rig audio in (TX)\n2 - KEY\n3 - PTT\n4 - NC\n5 - Rig audio out (RX)\n6 - GND\n7 - NC\n8 - NC\n9 - NC\n"
     (at 361.95 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d9a0627a-c488-4286-b6bd-a886d82f155b)
