@@ -71,11 +71,13 @@ connector, and this was the best choice. The pin out looks like this.
 | NC          | 4              | Not connected            |
 | RX audio    | 5              | Audio output of your rig |
 | GND         | 6              | Audio ground             |
-| NC          | 7              | Not connected            |
-| NC          | 8              | Not connected            |
-| NC          | 9              | Not connected            |
+| GND         | 7              | Audio ground             |
+| GND         | 8              | Audio ground             |
+| GND         | 9              | Audio ground             |
 
 PTT is connected to GPIO17. It is buffered, and logic one means transmit.
+
+KEY is connected to GPIO21 of the PI.
 
 
 ## Connection to the soundcard
