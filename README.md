@@ -149,3 +149,6 @@ All sourced from [Farnell](https://www.farnell.com/), unless othervise noted. (S
 | Mice | | Any USB, or BLE mice |
 | SD card with Raspbian image. | | |
 | uHDMI to HDMI cable | [Alza](https://www.alza.hu/vention-micro-hdmi-to-hdmi-cable-2m-black-d5891200.htm?o=1) | |
+| DB9 Male connector | | To connect to your radio |
+| Data connector for your radio |
+| Shielded audio cable | | To connect the soundcard to the hat, and for the DB9 connector |
