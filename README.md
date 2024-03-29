@@ -13,7 +13,7 @@ was working, but it looked like a mess.
 This piece of hardware integrates all needed equipment in one nice hat. It is designed
 to put the RPI in a metallic box to further isolate from RF signals.
 
-It was designed using [KiCad](https://www.kicad.org/) v7.
+It was designed using [KiCad](https://www.kicad.org/).
 
 
 ## Applications
@@ -35,7 +35,8 @@ It was designed using [KiCad](https://www.kicad.org/) v7.
 GPS antenna is not integrated in the device, so an external antenna connector is
 mounted on the PCB.
 
-The sound card is not included. I use
+Ufortunately, the sound card of the PI can not record audio, so an
+external sound card must be used. I use
 [this](https://www.axagon.eu/en/produkty/ada-17) particular device with good
 results. I usually break the plastic housing, and solder a shielded cable
 directly to the audio interface (J109).
@@ -88,7 +89,7 @@ J109 provides connection to the soundcard.
 |-------------|------------------------|----------------------------------|
 | RX audio    | 3                      | Mic input of your soundcard      |
 | TX audio    | 4                      | Speaker output of your soundcard |
-| GND         | 1,2                   | Audio ground                     |
+| GND         | 1,2                    | Audio ground                     |
 
 
 ## Setting up audio levels
