@@ -20,6 +20,7 @@ It was designed using [KiCad](https://www.kicad.org/).
 
 * HF/VHF digital modes (PSK, FT8, etc)
 * HF/VHF AX.25 based modes (Packet, APRS, etc)
+* CW keying
 
 
 ## Features
@@ -87,9 +88,9 @@ J109 provides connection to the soundcard.
 
 | Signal name | Pin of J109            | Comment                          |
 |-------------|------------------------|----------------------------------|
-| RX audio    | 3                      | Mic input of your soundcard      |
+| RX audio    | 1                      | Mic input of your soundcard      |
 | TX audio    | 4                      | Speaker output of your soundcard |
-| GND         | 1,2                    | Audio ground                     |
+| GND         | 2,3                    | Audio ground                     |
 
 
 ## Setting up audio levels
