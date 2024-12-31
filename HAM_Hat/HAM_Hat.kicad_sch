@@ -11697,7 +11697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA6252A2"
+		(property "Value" "U.FL"
 			(at 279.4 63.9064 0)
 			(effects
 				(font
@@ -11733,7 +11733,7 @@
 				(hide yes)
 			)
 		)
-		(property "id" ""
+		(property "id" "806"
 			(at 276.86 60.96 0)
 			(effects
 				(font
