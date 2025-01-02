@@ -2972,6 +2972,350 @@
 				)
 			)
 		)
+		(symbol "default:levcsi_database/147"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GRE"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "147"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/147_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/147_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "default:levcsi_database/187"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "187"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/187_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/187_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "default:levcsi_database/258"
 			(pin_numbers hide)
 			(pin_names
@@ -4255,7 +4599,7 @@
 					)
 				)
 			)
-			(property "Value" "MAX8"
+			(property "Value" "MAX10"
 				(at 8.89 12.7 0)
 				(effects
 					(font
@@ -4264,7 +4608,7 @@
 				)
 			)
 			(property "Footprint" "l_rf:MAX8"
-				(at -6.35 3.81 0)
+				(at -2.794 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4412,10 +4756,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 16.51 1.27 180)
 					(length 5.08)
-					(name "V_ANT"
+					(name "VIO_SEL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5960,6 +6304,12 @@
 		(uuid "57c5f33c-d942-458c-8fe3-a5df3951b059")
 	)
 	(junction
+		(at 91.44 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66ec0f91-9010-4882-8130-24a591b4e5ef")
+	)
+	(junction
 		(at 189.23 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6092,6 +6442,10 @@
 		(uuid "43bd49c8-2729-47ad-afa7-96b117e680e6")
 	)
 	(no_connect
+		(at 224.79 48.26)
+		(uuid "518068ba-80de-44bc-b665-f2690b06204c")
+	)
+	(no_connect
 		(at 50.8 74.93)
 		(uuid "53006b01-991b-46aa-9023-6437ece2fb63")
 	)
@@ -6106,6 +6460,10 @@
 	(no_connect
 		(at 50.8 100.33)
 		(uuid "61804277-5d73-4f4a-b2f6-b1b9f5be1feb")
+	)
+	(no_connect
+		(at 224.79 50.8)
+		(uuid "67f4ed55-7109-4f14-868b-7ee9e0c9da7a")
 	)
 	(no_connect
 		(at 198.12 248.92)
@@ -6184,10 +6542,6 @@
 		(uuid "db17a085-76fa-4214-97c8-a7d50a6b1614")
 	)
 	(no_connect
-		(at 224.79 48.26)
-		(uuid "db85bf44-5587-4f14-ae35-0af69f717520")
-	)
-	(no_connect
 		(at 50.8 82.55)
 		(uuid "f32e228f-ad34-449f-a06f-d2fd25922525")
 	)
@@ -6220,6 +6574,16 @@
 			(type default)
 		)
 		(uuid "037d8f19-e7aa-4472-84fe-e847bc555ea4")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 91.44 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b076de-5ac9-4b2d-8318-e63d90175be0")
 	)
 	(wire
 		(pts
@@ -6473,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 157.48) (xy 96.52 157.48)
+			(xy 83.82 157.48) (xy 91.44 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6660,6 +7024,16 @@
 			(type default)
 		)
 		(uuid "47db4b5e-9c10-4c38-9b29-2ca5c9affa06")
+	)
+	(wire
+		(pts
+			(xy 91.44 167.64) (xy 91.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482e7415-83d2-49bb-a954-2c36018a1ff7")
 	)
 	(wire
 		(pts
@@ -6983,16 +7357,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 55.88) (xy 189.23 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6f338b-28ee-4c4b-b0e3-39e577308e93")
-	)
-	(wire
-		(pts
 			(xy 189.23 58.42) (xy 181.61 58.42)
 		)
 		(stroke
@@ -7143,6 +7507,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 157.48) (xy 96.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c91f2a8-df79-49bb-baa9-80bdf3af5884")
+	)
+	(wire
+		(pts
 			(xy 36.83 154.94) (xy 45.72 154.94)
 		)
 		(stroke
@@ -7150,16 +7524,6 @@
 			(type default)
 		)
 		(uuid "8fe8499e-e3f0-4d8e-a1ad-8191c1affbfb")
-	)
-	(wire
-		(pts
-			(xy 189.23 55.88) (xy 189.23 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911d92f6-8f85-46c8-9c2b-8f63d116ed14")
 	)
 	(wire
 		(pts
@@ -7503,6 +7867,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 157.48) (xy 91.44 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c02758-a29d-4c34-a1f9-34e3e66a6a30")
+	)
+	(wire
+		(pts
 			(xy 64.77 170.18) (xy 72.39 170.18)
 		)
 		(stroke
@@ -7560,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "b9dddb0c-ac70-4b33-a7d2-da96fd9b1c30")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba85b9b6-1356-4ef0-8d8a-e1dc7c32d844")
 	)
 	(wire
 		(pts
@@ -7750,6 +8134,16 @@
 			(type default)
 		)
 		(uuid "c6d6a959-7458-461c-b618-7f27160d9b8c")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 191.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b1f5ba-d23c-47cf-8348-b86630771deb")
 	)
 	(wire
 		(pts
@@ -8131,6 +8525,16 @@
 		)
 		(uuid "fff39ee0-c4f3-4b40-bb6c-43de21b748df")
 	)
+	(text "When MAX-10 is used, R113 is DNP."
+		(exclude_from_sim no)
+		(at 218.44 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20f8c642-d428-457b-9644-c50a9e0deda0")
+	)
 	(text "This is based on the official Raspberry Pi spec to be able to call an extension board a HAT.\nhttps://github.com/raspberrypi/hats/blob/master/designguide.md"
 		(exclude_from_sim no)
 		(at 21.59 31.75 0)
@@ -8141,17 +8545,6 @@
 			(justify left bottom)
 		)
 		(uuid "439b4447-3aca-4f07-bdd4-94a7398be090")
-	)
-	(text "MAX-8 is not yet available, but MAX-7 is pin to pin compatible."
-		(exclude_from_sim no)
-		(at 189.23 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44d8b9f9-4f77-47a0-87ce-9d491b20d68a")
 	)
 	(text "Radio audio interface"
 		(exclude_from_sim no)
@@ -8174,6 +8567,16 @@
 			(justify left bottom)
 		)
 		(uuid "768bb1e3-0465-4f57-9439-21826f61baad")
+	)
+	(text "L102 is DNP, when passive antenna is used."
+		(exclude_from_sim no)
+		(at 275.59 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fb1e92a-9e9a-4af8-9813-addbf668433d")
 	)
 	(text "Short JP102, JP103 and JP104 for wider audio.\nIf you do, don't populate T101 and T102.\nYou'll lose isolation."
 		(exclude_from_sim no)
@@ -8225,7 +8628,7 @@
 	)
 	(text "TX audio input.\nConnect it to soundcard speaker output"
 		(exclude_from_sim no)
-		(at 253.746 125.984 0)
+		(at 253.238 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8247,7 +8650,7 @@
 	)
 	(text "Computer audio connection"
 		(exclude_from_sim no)
-		(at 246.38 92.71 0)
+		(at 231.902 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8344,6 +8747,28 @@
 		)
 		(uuid "3ba11a95-9287-42bf-9cfe-35e78553186e")
 	)
+	(label "TX_OUT"
+		(at 330.2 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400d4011-3bd7-4397-b7b3-d6c7d40184f0")
+	)
+	(label "TX_IN"
+		(at 273.05 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41def13d-420c-4bef-843a-98cc10607b1a")
+	)
 	(label "P5V_HAT"
 		(at 96.52 157.48 180)
 		(fields_autoplaced yes)
@@ -8365,6 +8790,17 @@
 			(justify right bottom)
 		)
 		(uuid "603e940d-72d2-45e8-86c2-6520aeb41dd6")
+	)
+	(label "GNSS_TXD"
+		(at 168.91 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69fe0054-35ae-430f-9208-a4ac7edd1a52")
 	)
 	(label "PWM"
 		(at 20.32 97.79 0)
@@ -8432,6 +8868,17 @@
 		)
 		(uuid "8482c037-1586-474d-91f8-5fb602ec5c3f")
 	)
+	(label "RPI_TXD"
+		(at 118.11 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "896b8dc6-d509-43be-951b-7083482c771c")
+	)
 	(label "SCL"
 		(at 20.32 62.23 0)
 		(fields_autoplaced yes)
@@ -8465,6 +8912,17 @@
 		)
 		(uuid "94877d28-c127-4543-abd2-cb5aa1d2ba0c")
 	)
+	(label "GNSS_RXD"
+		(at 168.91 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94a04efc-c37e-4304-8f30-2e7440bdac2c")
+	)
 	(label "P3V3_HAT"
 		(at 167.64 58.42 0)
 		(fields_autoplaced yes)
@@ -8475,6 +8933,17 @@
 			(justify left bottom)
 		)
 		(uuid "9e14d195-4bf7-420a-84ba-e695aa65d69b")
+	)
+	(label "RX_OUT"
+		(at 267.97 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0a01fed-5e90-474e-adc7-774769b1bcc5")
 	)
 	(label "P5V_HAT"
 		(at 111.76 57.15 180)
@@ -8608,6 +9077,17 @@
 		)
 		(uuid "d5f4f861-4a67-4509-b308-b0d6046bf300")
 	)
+	(label "RX_IN"
+		(at 332.74 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d72a022b-e19b-4651-8c9e-96d75ddaad05")
+	)
 	(label "P5V_HAT"
 		(at 96.52 154.94 180)
 		(fields_autoplaced yes)
@@ -8618,6 +9098,17 @@
 			(justify right bottom)
 		)
 		(uuid "e2cc01b0-43de-44ad-b336-099ff8f3b405")
+	)
+	(label "GNSS_TP"
+		(at 168.91 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3606310-6d4e-4568-93bd-265e1a767b04")
 	)
 	(label "PTT"
 		(at 20.32 69.85 0)
@@ -8630,6 +9121,17 @@
 		)
 		(uuid "e575939d-e366-4a21-a8ad-233b493b2dda")
 	)
+	(label "RPI_RXD"
+		(at 118.11 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec55abb7-edc3-4d9c-b7ad-a4cf895be4ee")
+	)
 	(label "GND"
 		(at 111.76 72.39 180)
 		(fields_autoplaced yes)
@@ -8640,6 +9142,17 @@
 			(justify right bottom)
 		)
 		(uuid "eea78cd7-37d2-417e-a2ce-41c07fd36003")
+	)
+	(label "RPI_TP"
+		(at 118.11 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f632ae80-cb47-4df0-8beb-4573e8236f4f")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -9621,7 +10134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_SMD:Pulse_PA2006NL"
+		(property "Footprint" "l_transformer:SM_LP_5001"
 			(at 311.15 139.7 0)
 			(effects
 				(font
@@ -9703,7 +10216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_SMD:Pulse_PA2006NL"
+		(property "Footprint" "l_transformer:SM_LP_5001"
 			(at 311.15 107.95 0)
 			(effects
 				(font
@@ -11706,7 +12219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+		(property "Footprint" "l_connector:U.FL"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -11984,7 +12497,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ab061d")
 		(property "Reference" "R103"
-			(at 160.02 60.96 90)
+			(at 153.162 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +12505,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 162.56 60.96 90)
+			(at 153.162 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12573,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ab1784")
 		(property "Reference" "D102"
-			(at 148.59 72.39 0)
+			(at 151.892 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12581,7 @@
 			)
 		)
 		(property "Value" "GRE"
-			(at 151.13 72.39 0)
+			(at 151.13 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,72 +12778,6 @@
 			(project "HAM_Hat"
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "C104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061ac50e1")
-		(property "Reference" "#PWR0121"
-			(at 231.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.0412 50.673 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2291b394-95b2-4bc9-b27f-87c287f7e5c0")
-		)
-		(instances
-			(project "HAM_Hat"
-				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -13980,6 +14427,103 @@
 		)
 	)
 	(symbol
+		(lib_id "default:levcsi_database/147")
+		(at 91.44 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b20090-af9b-4828-ab3e-72b6e7dfa015")
+		(property "Reference" "D105"
+			(at 95.25 173.0374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GRE"
+			(at 95.25 175.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" ""
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" ""
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "147"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e17c4fba-a368-4e43-91ae-8fe82f5921ae")
+		)
+		(pin "1"
+			(uuid "69f81795-e91c-403b-9ddd-6c8c55f05a2b")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "default:levcsi_database/258")
 		(at 289.56 181.61 180)
 		(unit 1)
@@ -14502,6 +15046,197 @@
 		)
 	)
 	(symbol
+		(lib_id "default:levcsi_database/390")
+		(at 91.44 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4419b5-387e-449a-b827-2b69465d5f33")
+		(property "Reference" "R112"
+			(at 93.98 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510R"
+			(at 93.98 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.218 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "0.1W"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" "1%"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "390"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89f11585-5779-4e0e-bdd9-fe43bd1a8ded")
+		)
+		(pin "2"
+			(uuid "49073507-2abc-4e77-820c-5834644b39b9")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "default:levcsi_database/187")
+		(at 185.42 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e4f8a2-df99-446e-8b7f-4842d4fbcdca")
+		(property "Reference" "R113"
+			(at 185.42 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 185.42 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" ""
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" ""
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "187"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9b9f3be-dc72-4cb5-b3d5-3f26bd4568e0")
+		)
+		(pin "1"
+			(uuid "7911cfb5-8f57-457f-a72c-4bc928657a7b")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 290.83 246.38 0)
 		(unit 1)
@@ -14732,6 +15467,71 @@
 			(project "HAM_Hat"
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e692b3fb-4c25-4ce3-9a1f-2254e9a7d212")
+		(property "Reference" "#PWR0117"
+			(at 91.44 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.567 183.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6a30421-105d-44da-845c-068f68525002")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
