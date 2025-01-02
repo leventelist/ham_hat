@@ -21,12 +21,14 @@ It was designed using [KiCad](https://www.kicad.org/).
 * HF/VHF digital modes (PSK, FT8, etc)
 * HF/VHF AX.25 based modes (Packet, APRS, etc)
 * CW keying
+* Clock synchronization
+* Position tracking
 
 
 ## Features
 
  * 3A power supply with wide input voltage range: 8 to 35V
- * Ublox MAX-8 GPS receiver for position and time synchronization
+ * Ublox MAX-8/10 GPS receiver for position and time synchronization
  * Inductive audio couplers to minimize GND loops. Up to 4kHz.
  * PWM controlled cooling fan
  * GPIO controlled PTT from the PI
@@ -84,20 +86,13 @@ KEY is connected to GPIO21 of the PI.
 
 ## Connection to the soundcard
 
-J109 provides connection to the soundcard.
+J105 provides connection to the soundcard.
 
-| Signal name | Pin of J109            | Comment                          |
+| Signal name | Pin of J105            | Comment                          |
 |-------------|------------------------|----------------------------------|
 | RX audio    | 1                      | Mic input of your soundcard      |
 | TX audio    | 4                      | Speaker output of your soundcard |
 | GND         | 2,3                    | Audio ground                     |
-
-
-## Setting up audio levels
-
-There are two potentiometers (RV101 and RV102) to adjust sound level in RX and TX direction respectively. Adjust TX and RX
-audio levels to a certain point where you are not over driving either input. If you
-are using it for HF, monitor your ALC, and make sure it is not active.
 
 
 ## Power connection
@@ -107,7 +102,11 @@ J101 provides power connection. The maximum input voltage is 35Volts.
 
 ## GPS
 
+Use u-blox MAX-8C/Q or MAX-M10S GNSS module. When the MAX-10 is used, don't populate R113.
+
 Connect your passive or active GPS antenna to J104. Use 3.3V active antenna. PPS signal is provided on GPIO18.
+
+When passive antenna is used, don't populate L102.
 
 [Here](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/) is an excellent article how to set up GPIO-PPS for ntpd.
 
