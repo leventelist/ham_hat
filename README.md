@@ -113,9 +113,79 @@ When passive antenna is used, don't populate L102.
 
 ## RTC
 
-DS3231 based precision RTC is provided for backup if the GPS can't provide accurate timing. It has internal temperature compensated crystal oscillator.
+BQ32000 based precision RTC is provided for backup if the GPS can't provide accurate timing.
 
-A nice tutorial how to set up the [RTC](https://thepihut.com/blogs/raspberry-pi-tutorials/17209332-adding-a-real-time-clock-to-your-raspberry-pi) on an RPI.
+
+### Enable I²C on Raspberry Pi
+```bash
+sudo raspi-config
+```
+Navigate to:
+```
+Interfacing Options → I2C → Enable
+```
+Reboot the Raspberry Pi:
+```bash
+sudo reboot
+```
+
+### Check I²C Communication
+```bash
+sudo apt install i2c-tools
+i2cdetect -y 1
+```
+You should see the RTC at **0x68**.
+
+### Configure Linux to Use BQ32000
+```bash
+sudo modprobe rtc-bq32k
+echo bq32000 0x68 | sudo tee /sys/class/i2c-adapter/i2c-1/new_device
+sudo hwclock -r
+```
+
+### Make It Persistent
+Edit `/boot/config.txt`:
+```bash
+sudo nano /boot/config.txt
+```
+Add the following line:
+```
+dtoverlay=i2c-rtc,bq32000
+```
+Save and reboot:
+```bash
+sudo reboot
+```
+
+### Disable Fake RTC (if needed)
+```bash
+sudo systemctl disable fake-hwclock
+sudo systemctl stop fake-hwclock
+```
+Edit `/lib/udev/hwclock-set` and comment out:
+```bash
+#if [ -e /run/systemd/system ] ; then
+#    exit 0
+#fi
+```
+
+### Sync RTC with System Time
+Set RTC from system time:
+```bash
+sudo hwclock -w
+```
+Set system time from RTC:
+```bash
+sudo hwclock -s
+```
+
+### Final Test
+Check that the RTC retains the time after reboot:
+```bash
+sudo hwclock -r
+```
+
+
 
 Connect a 3V battery to BT101 for offline RTC operation.
 

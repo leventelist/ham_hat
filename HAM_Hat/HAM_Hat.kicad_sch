@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d746ec70-4f38-4eaf-8576-334127e7f74a")
@@ -2284,7 +2284,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2296,7 +2296,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -2459,26 +2459,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Timer_RTC:DS3231MZ"
+		(symbol "Timer_RTC:BQ32000"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 8.89 0)
+				(at -8.89 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "DS3231MZ"
-				(at 11.43 8.89 0)
+			(property "Value" "BQ32000"
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -2490,16 +2489,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "±5ppm, I2C Real-Time Clock SOIC-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq32000.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2508,7 +2498,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RTC TCXO Realtime Time Clock MEMS I2C"
+			(property "Description" "Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2517,7 +2507,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_keywords" "RTC, I2C Timekeeping Chip"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2526,7 +2516,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "DS3231MZ_0_1"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm?P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BQ32000_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -2539,7 +2538,7 @@
 					)
 				)
 			)
-			(symbol "DS3231MZ_1_1"
+			(symbol "BQ32000_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -2550,7 +2549,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2568,7 +2567,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2576,17 +2575,35 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
+				(pin input line
+					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "~{RST}"
+					(name "OSCI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "OSCO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2597,14 +2614,14 @@
 				(pin power_in line
 					(at -2.54 10.16 270)
 					(length 2.54)
-					(name "VBAT"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2615,14 +2632,14 @@
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "VCC"
+					(name "VBACK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2640,7 +2657,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2649,34 +2666,16 @@
 					)
 				)
 				(pin open_collector line
-					(at 12.7 5.08 180)
+					(at 12.7 0 180)
 					(length 2.54)
-					(name "32KHZ"
+					(name "~{IRQ}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "~{INT}/SQW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3224,6 +3223,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "default:levcsi_database/158"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "32.768kHz"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" "20ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" "12.5pf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "158"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/158_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/158_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "default:levcsi_database/187"
 			(pin_numbers
 				(hide yes)
@@ -3357,6 +3556,172 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "default:levcsi_database/208"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" "16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "208"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/208_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/208_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -4166,18 +4531,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
@@ -4186,6 +4539,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -6648,6 +7013,18 @@
 		(uuid "eb71376c-9943-4531-82b2-aba9dc742dae")
 	)
 	(junction
+		(at 191.77 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb98d901-d380-46a7-a997-35781869646d")
+	)
+	(junction
+		(at 182.88 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f158f834-d0f0-463f-b795-ddb93fab64eb")
+	)
+	(junction
 		(at 358.14 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6708,10 +7085,6 @@
 		(uuid "67f4ed55-7109-4f14-868b-7ee9e0c9da7a")
 	)
 	(no_connect
-		(at 198.12 248.92)
-		(uuid "71fb606b-be5b-4514-ba99-3b8ce5fee807")
-	)
-	(no_connect
 		(at 360.68 129.54)
 		(uuid "822196f8-a6a8-4f75-bb18-aa418d6ceb93")
 	)
@@ -6720,8 +7093,8 @@
 		(uuid "8a0ac71b-5296-4402-b2f7-82049f7fabb4")
 	)
 	(no_connect
-		(at 172.72 259.08)
-		(uuid "93f491f7-d48d-44ce-8a0c-ffcc528857d2")
+		(at 198.12 254)
+		(uuid "8df927d3-094d-4ae1-9880-63f1eb4c85c8")
 	)
 	(no_connect
 		(at 67.31 168.91)
@@ -6738,10 +7111,6 @@
 	(no_connect
 		(at 81.28 87.63)
 		(uuid "9df715f2-012c-40fb-ad50-00748253bb71")
-	)
-	(no_connect
-		(at 198.12 256.54)
-		(uuid "9ec156d4-fadd-4d6e-9cb7-0acc0d568a60")
 	)
 	(no_connect
 		(at 50.8 102.87)
@@ -6949,6 +7318,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 254) (xy 162.56 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b405be9-f4f3-485f-9470-f9c64d6f3229")
+	)
+	(wire
+		(pts
 			(xy 342.9 119.38) (xy 342.9 218.44)
 		)
 		(stroke
@@ -7029,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 243.84) (xy 182.88 232.41)
+			(xy 185.42 243.84) (xy 185.42 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7209,6 +7588,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 261.62) (xy 167.64 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c280a94-8522-429d-a0b5-673b16037553")
+	)
+	(wire
+		(pts
 			(xy 293.37 236.22) (xy 290.83 236.22)
 		)
 		(stroke
@@ -7216,6 +7605,16 @@
 			(type default)
 		)
 		(uuid "3db53d69-f061-496c-8b3d-a1cc255ece8f")
+	)
+	(wire
+		(pts
+			(xy 193.04 241.3) (xy 198.12 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40351670-e73b-4535-a0eb-0b03cd100583")
 	)
 	(wire
 		(pts
@@ -7299,7 +7698,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 232.41) (xy 185.42 243.84)
+			(xy 182.88 232.41) (xy 182.88 236.22)
 		)
 		(stroke
 			(width 0)
@@ -7399,6 +7798,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 222.25) (xy 191.77 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58add3c7-e23f-4f5a-aa7b-3df175e04dcc")
+	)
+	(wire
+		(pts
+			(xy 167.64 256.54) (xy 167.64 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5954680e-9a3a-491d-a512-90672f3d0aa7")
+	)
+	(wire
+		(pts
 			(xy 45.72 154.94) (xy 48.26 154.94)
 		)
 		(stroke
@@ -7466,6 +7885,16 @@
 			(type default)
 		)
 		(uuid "610262d4-c8f5-4292-815c-609659772c80")
+	)
+	(wire
+		(pts
+			(xy 182.88 236.22) (xy 182.88 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635d0c1b-970f-44ba-bdc5-9ad971d1debb")
 	)
 	(wire
 		(pts
@@ -7689,6 +8118,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 243.84) (xy 171.45 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be4d8a-3840-489e-9f8a-e3910bf55233")
+	)
+	(wire
+		(pts
 			(xy 278.13 181.61) (xy 278.13 179.07)
 		)
 		(stroke
@@ -7706,6 +8145,16 @@
 			(type default)
 		)
 		(uuid "8750a5d7-e6d7-40f9-bab3-466f2b3036c2")
+	)
+	(wire
+		(pts
+			(xy 172.72 256.54) (xy 167.64 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f001c9-e899-4c8f-bf61-796482340825")
 	)
 	(wire
 		(pts
@@ -7749,6 +8198,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 232.41) (xy 185.42 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c24d046-de87-46bd-be6b-33a00e4e0b76")
+	)
+	(wire
+		(pts
 			(xy 91.44 157.48) (xy 96.52 157.48)
 		)
 		(stroke
@@ -7756,6 +8215,16 @@
 			(type default)
 		)
 		(uuid "8c91f2a8-df79-49bb-baa9-80bdf3af5884")
+	)
+	(wire
+		(pts
+			(xy 167.64 259.08) (xy 172.72 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f481b49-b54f-4d47-8ed2-3b9f002f445f")
 	)
 	(wire
 		(pts
@@ -8539,16 +9008,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 232.41) (xy 163.83 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7fa6dc-520b-4d62-b38c-c4fd7e1a262f")
-	)
-	(wire
-		(pts
 			(xy 200.66 157.48) (xy 200.66 151.13)
 		)
 		(stroke
@@ -8566,6 +9025,16 @@
 			(type default)
 		)
 		(uuid "e152fd2e-ec22-4dcf-84d0-353985e1bc9f")
+	)
+	(wire
+		(pts
+			(xy 193.04 233.68) (xy 193.04 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17c73e3-f59c-4edc-9479-7d1b682c4dc2")
 	)
 	(wire
 		(pts
@@ -8596,6 +9065,16 @@
 			(type default)
 		)
 		(uuid "e541f6d7-b7f0-420d-bf12-8e39b66ae3e6")
+	)
+	(wire
+		(pts
+			(xy 193.04 232.41) (xy 191.77 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e643ce9d-946d-4c87-ab5d-b587703c4196")
 	)
 	(wire
 		(pts
@@ -8669,6 +9148,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 229.87) (xy 191.77 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21ca67a-f304-4415-ad23-c2fd1a59c5a8")
+	)
+	(wire
+		(pts
 			(xy 81.28 105.41) (xy 111.76 105.41)
 		)
 		(stroke
@@ -8709,6 +9198,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 261.62) (xy 167.64 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ac44f6-aea9-4ec8-80b5-add2c0d4d5c9")
+	)
+	(wire
+		(pts
 			(xy 261.62 53.34) (xy 262.89 53.34)
 		)
 		(stroke
@@ -8736,6 +9235,16 @@
 			(type default)
 		)
 		(uuid "fac3d6dd-ef9e-49ff-929e-d6ee71c9379e")
+	)
+	(wire
+		(pts
+			(xy 171.45 236.22) (xy 182.88 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcab6b38-76ed-4aa7-9496-ad3a52f0665a")
 	)
 	(wire
 		(pts
@@ -8958,12 +9467,12 @@
 		(uuid "8f445622-81dd-4d46-8349-d1bb51400419")
 	)
 	(label "P3V3_HAT"
-		(at 185.42 232.41 0)
+		(at 182.88 232.41 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9162b624-ebca-4fa3-bbd4-acd32a139bda")
 	)
@@ -13173,102 +13682,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer_RTC:DS3231MZ")
-		(at 185.42 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061b0bdd6")
-		(property "Reference" "U104"
-			(at 190.5 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS3231MZ+TRL"
-			(at 194.31 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 185.42 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
-			(at 185.42 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±5ppm, I2C Real-Time Clock SOIC-8"
-			(at 185.42 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "id" "760"
-			(at 185.42 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abf56a17-2e27-4cc9-9314-636389bd5fd3")
-		)
-		(pin "2"
-			(uuid "732187b3-e0d3-4fef-996a-64b441626069")
-		)
-		(pin "3"
-			(uuid "3dfd122d-34a6-47a5-9e0f-e6ce1f1235a6")
-		)
-		(pin "4"
-			(uuid "c5a8a046-d6e9-4bf0-a7e5-d20a224f38ea")
-		)
-		(pin "5"
-			(uuid "53a2a801-5d96-49ac-8c1b-0b5f4bb57a97")
-		)
-		(pin "6"
-			(uuid "a0917e27-905d-469a-bc9d-ffc85b3cfdd8")
-		)
-		(pin "7"
-			(uuid "4e8f3ec9-335e-4741-b8ae-82c426259907")
-		)
-		(pin "8"
-			(uuid "7dbb2f99-65c5-442f-ba78-47ebed19e03e")
-		)
-		(instances
-			(project "HAM_Hat"
-				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
-					(reference "U104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 163.83 237.49 0)
+		(at 193.04 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13276,7 +13691,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b14ca8")
 		(property "Reference" "BT101"
-			(at 166.8272 235.0516 0)
+			(at 196.0372 236.3216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,7 +13700,7 @@
 			)
 		)
 		(property "Value" "NCW254-02S"
-			(at 166.8272 237.363 0)
+			(at 196.0372 238.633 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,8 +13708,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 163.83 235.966 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 193.04 237.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 235.966 90)
+			(at 193.04 237.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,7 +13727,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 163.83 237.49 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,8 +13735,8 @@
 				(hide yes)
 			)
 		)
-		(property "id" "320"
-			(at 163.83 237.49 0)
+		(property "id" "0"
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,7 +13907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 240.03 0)
+		(at 198.12 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13500,7 +13915,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b2a75f")
 		(property "Reference" "#PWR0126"
-			(at 163.83 246.38 0)
+			(at 198.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.957 244.4242 0)
+			(at 198.247 245.6942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13517,7 +13932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 240.03 0)
+			(at 198.12 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 240.03 0)
+			(at 198.12 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13535,7 +13950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 240.03 0)
+			(at 198.12 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14663,6 +15078,264 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 167.64 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc48313-db44-4b24-b080-a8f6ff8a23bf")
+		(property "Reference" "#PWR0130"
+			(at 167.64 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.767 248.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "002eac58-8693-4e98-a33d-b655e6752865")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "default:levcsi_database/208")
+		(at 171.45 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2021a665-853a-4db9-8495-f68ea2806deb")
+		(property "Reference" "C105"
+			(at 175.26 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 175.26 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.4152 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "16V"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" ""
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "208"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebf30922-42ed-41b6-8a1c-dcc4ba598abe")
+		)
+		(pin "2"
+			(uuid "12696e4b-bc18-4a33-87df-d03ef1a24896")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "default:levcsi_database/158")
+		(at 162.56 257.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "291392e1-b9af-42a4-a04a-9352dbd2a60c")
+		(property "Reference" "Y101"
+			(at 158.75 256.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 158.75 259.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "20ppm"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" "12.5pf"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "158"
+			(at 162.56 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f0ef46-9e35-4902-a61d-39b1f44e7659")
+		)
+		(pin "2"
+			(uuid "d8ed33c9-871e-48ba-bda4-bd1ff460e363")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "Y101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 300.99 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14818,6 +15491,71 @@
 			(project ""
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72288df6-f960-44a2-9d0d-4d5e1c2bae91")
+		(property "Reference" "#PWR0131"
+			(at 185.42 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.547 226.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e2ed87-bd54-415f-91f9-bb11548464d0")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -15000,6 +15738,92 @@
 			(project ""
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timer_RTC:BQ32000")
+		(at 185.42 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9134fc8-eece-45ad-b82d-73e97414fb9e")
+		(property "Reference" "U106"
+			(at 201.93 247.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ32000"
+			(at 201.93 250.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 185.42 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq32000.pdf"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eac16211-9c45-4188-baef-2869b0099364")
+		)
+		(pin "4"
+			(uuid "19a681bc-24b3-43c7-862b-a23d664b9bec")
+		)
+		(pin "8"
+			(uuid "75bf1fe7-97da-4c5b-9b6b-23d3733e5bc3")
+		)
+		(pin "1"
+			(uuid "0cd1e491-d35d-4aec-bbe7-a32dba974818")
+		)
+		(pin "5"
+			(uuid "6f143fe0-faab-4bc4-ab18-d6d62b3ce51a")
+		)
+		(pin "6"
+			(uuid "261f2077-dd3f-4ec7-bdc0-f24bf06a4fa1")
+		)
+		(pin "7"
+			(uuid "609fed3a-8934-48dd-a56e-7b663115d4e0")
+		)
+		(pin "2"
+			(uuid "97af77b6-1470-4a66-a12e-cd854d8bfbcf")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "U106")
 					(unit 1)
 				)
 			)
@@ -15510,6 +16334,103 @@
 			(project "HAM_Hat"
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "default:levcsi_database/208")
+		(at 191.77 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ca3777-9d8f-410a-9c41-e20451265aa7")
+		(property "Reference" "C106"
+			(at 195.58 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 195.58 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.7352 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "16V"
+			(at 191.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" ""
+			(at 191.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "208"
+			(at 191.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebf30922-42ed-41b6-8a1c-dcc4ba598abe")
+		)
+		(pin "2"
+			(uuid "12696e4b-bc18-4a33-87df-d03ef1a24896")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "C106")
 					(unit 1)
 				)
 			)
