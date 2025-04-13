@@ -6707,7 +6707,7 @@
 	)
 	(text "Short JP102, JP103 and JP104 for wider audio.\nIf you do, don't populate T101 and T102.\nYou'll lose isolation."
 		(exclude_from_sim no)
-		(at 313.69 190.5 0)
+		(at 344.932 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14288,7 +14288,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c9f089")
 		(property "Reference" "JP102"
-			(at 306.07 91.44 0)
+			(at 304.292 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +14367,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ca0774")
 		(property "Reference" "JP103"
-			(at 306.07 123.19 0)
+			(at 304.292 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14446,7 +14446,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ca133b")
 		(property "Reference" "JP104"
-			(at 306.07 153.67 0)
+			(at 304.546 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16422,10 +16422,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebf30922-42ed-41b6-8a1c-dcc4ba598abe")
+			(uuid "ebf30922-42ed-41b6-8a1c-dcc4ba598abf")
 		)
 		(pin "2"
-			(uuid "12696e4b-bc18-4a33-87df-d03ef1a24896")
+			(uuid "12696e4b-bc18-4a33-87df-d03ef1a24897")
 		)
 		(instances
 			(project ""
