@@ -6652,6 +6652,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Carrier detect"
+		(exclude_from_sim no)
+		(at 201.422 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "165b6776-54aa-42d3-8ac2-09371edca37d")
+	)
 	(text "When MAX-10 is used, R113 is DNP."
 		(exclude_from_sim no)
 		(at 218.44 72.644 0)
@@ -7069,10 +7079,6 @@
 		(uuid "53006b01-991b-46aa-9023-6437ece2fb63")
 	)
 	(no_connect
-		(at 81.28 95.25)
-		(uuid "5dc00686-4fea-4738-8ab6-6b9e19a03988")
-	)
-	(no_connect
 		(at 224.79 55.88)
 		(uuid "612462a7-a03a-428c-8d3a-876249136714")
 	)
@@ -7125,7 +7131,7 @@
 		(uuid "b108b601-11c5-4802-927c-5f84ffbc1f45")
 	)
 	(no_connect
-		(at 81.28 100.33)
+		(at 81.28 74.93)
 		(uuid "b38431ae-e80b-4078-a648-30808b70c48c")
 	)
 	(no_connect
@@ -7139,10 +7145,6 @@
 	(no_connect
 		(at 50.8 80.01)
 		(uuid "c3701066-c5ac-4cc1-9239-4123b4b3b889")
-	)
-	(no_connect
-		(at 81.28 74.93)
-		(uuid "d02f030d-7660-480b-b1ec-603ff66a9b54")
 	)
 	(no_connect
 		(at 81.28 102.87)
@@ -7405,6 +7407,16 @@
 			(type default)
 		)
 		(uuid "239132a0-2aee-4159-8b2a-b55de1e0e1ce")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d6518d-8a42-47a6-b61d-1d7310bc4fdb")
 	)
 	(wire
 		(pts
@@ -7708,7 +7720,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.85) (xy 20.32 69.85)
+			(xy 95.25 95.25) (xy 81.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7795,6 +7807,16 @@
 			(type default)
 		)
 		(uuid "57c59cd8-c251-4f1e-ba07-2b9314e01af2")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582d8898-dd89-433b-bf30-705d53ac7dc2")
 	)
 	(wire
 		(pts
@@ -8018,6 +8040,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 114.3) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e5e386-6bd1-4a16-9cc8-a9704aff043b")
+	)
+	(wire
+		(pts
 			(xy 360.68 119.38) (xy 342.9 119.38)
 		)
 		(stroke
@@ -8215,6 +8247,16 @@
 			(type default)
 		)
 		(uuid "8c91f2a8-df79-49bb-baa9-80bdf3af5884")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbee961-fab8-4fb0-b793-ae085666f54a")
 	)
 	(wire
 		(pts
@@ -9168,6 +9210,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 128.27) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f2ca67-4a8f-4820-98c6-46b966982bc3")
+	)
+	(wire
+		(pts
 			(xy 251.46 53.34) (xy 254 53.34)
 		)
 		(stroke
@@ -9526,6 +9578,16 @@
 		)
 		(uuid "ab3b49b9-8c6a-431e-8475-75a41a082d72")
 	)
+	(label "DCD"
+		(at 177.8 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae198c16-d850-4907-bd93-b4f898ac4721")
+	)
 	(label "CW_KEY_OUT"
 		(at 325.12 218.44 0)
 		(effects
@@ -9667,7 +9729,7 @@
 		(uuid "e3606310-6d4e-4568-93bd-265e1a767b04")
 	)
 	(label "PTT"
-		(at 20.32 69.85 0)
+		(at 95.25 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,6 +9767,16 @@
 			(justify left bottom)
 		)
 		(uuid "f632ae80-cb47-4df0-8beb-4573e8236f4f")
+	)
+	(label "DCD"
+		(at 95.25 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa771717-9877-48f7-994e-0cd2ffa5f424")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -15239,6 +15311,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 191.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25673a74-42fc-4445-81c6-6bafd14c7181")
+		(property "Reference" "R114"
+			(at 187.452 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 187.452 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.992 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "390"
+			(at 191.77 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e8660f0-ed68-4564-9c47-3de3c7ec9bde")
+		)
+		(pin "2"
+			(uuid "170c3c11-3e43-468b-bc07-acf5e6a68e89")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "default:levcsi_database/158")
 		(at 162.56 257.81 270)
 		(unit 1)
@@ -15329,6 +15477,72 @@
 			(project ""
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "Y101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6c50f6-7197-4863-85a6-6a492accad44")
+		(property "Reference" "#PWR0121"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.897 131.5212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9855728d-4ca4-46ea-be42-9a07c7d61a45")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -15738,6 +15952,82 @@
 			(project ""
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4eb0a89-79e0-46ed-8cab-e5d6743a991f")
+		(property "Reference" "D106"
+			(at 186.182 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GRE"
+			(at 185.42 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "147"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e2602f7-2647-4b83-adb3-fa7fd02038a4")
+		)
+		(pin "2"
+			(uuid "42046b32-f3ea-484e-8901-436eda18b348")
+		)
+		(instances
+			(project "HAM_Hat"
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "D106")
 					(unit 1)
 				)
 			)
