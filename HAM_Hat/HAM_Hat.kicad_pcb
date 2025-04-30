@@ -10,7 +10,7 @@
 	(title_block
 		(title "Ham hat")
 		(date "2025-04-30")
-		(rev "v2.1.0")
+		(rev "v2.1.1")
 		(company "Logonex Bt.")
 		(comment 1 "Drawn by HA5OGL")
 	)
@@ -16590,7 +16590,7 @@
 			)
 		)
 	)
-	(gr_text "v2.1.0"
+	(gr_text "v2.1.1"
 		(at 134.5 77.7 0)
 		(layer "F.SilkS")
 		(uuid "5e7c8793-d6e0-4c84-b484-18c41ebb8cc6")
