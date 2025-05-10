@@ -34,6 +34,8 @@ It was designed using [KiCad](https://www.kicad.org/).
  * GPIO controlled PTT from the PI
  * GPIO controlled CW key from the PI
  * RTC
+ * Shutdown button
+ * Run LED
 
 GPS antenna is not integrated in the device, so an external antenna connector is
 mounted on the PCB.
@@ -200,6 +202,24 @@ There's a non-PWM control of the fan that works out of the box using the Raspber
 
 Open raspi-config, under Performance Options, you shall select the desired temperature,
 and the GPIO pin which is 13.
+
+
+## Shutdown button can be connected to J106
+
+To make it work, you have to add these lines to /boot/config
+
+```
+dtoverlay=gpio-shutdown,gpio_pin=26
+```
+
+Ther's also a LED (D107 )that shines when the system is running. When it
+Doesn't, it is safe to remove power from the RPI.
+
+To make this work, add this too:
+
+```
+dtoverlay=gpio-poweroff,gpiopin=7,active_low=1
+```
 
 ## Accessories
 
