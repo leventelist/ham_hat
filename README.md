@@ -49,14 +49,6 @@ directly to the audio interface (J109).
 The GPS is needed for APRS and time synchronization. There is an onbard RTC to have some redundancy.
 
 
-## Schematic
-
-Grab the [schematic](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat.pdf)
-for a quick look.
-
-BoM can be found [here](https://github.com/leventelist/ham_hat/blob/master/doc/HAM_Hat_bom.csv).
-
-
 ## Mechanics
 
 It is designed to fit on the Raspberry PI 4. Be aware, that if the heatsink on the CPU is too high, it might
