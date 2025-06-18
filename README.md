@@ -1,6 +1,6 @@
 # Raspberry PI hat for radio amateurs
 
-![](https://github.com/leventelist/ham_hat/blob/master/images/HAM_Hat.png)
+![](images/HAM_Hat.png)
 
 
 ## History
@@ -51,10 +51,11 @@ The GPS is needed for APRS and time synchronization. There is an onbard RTC to h
 
 ## Mechanics
 
+![](images/hat_assembly.png)
+
 It is designed to fit on the Raspberry PI 4. Be aware, that if the heatsink on the CPU is too high, it might
 conflict with the screws of the fan. If that happens, mount the heatsink 45 degrees.
 
-![](https://github.com/leventelist/ham_hat/blob/master/images/hat_assembly.png)
 
 ## Connection to the radio
 
