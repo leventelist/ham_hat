@@ -1,0 +1,606 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x261 y120)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x261 y-0 z0 f400)
+(Block-X: g1 x191 y0 z0)
+(Block-X: g1 x261 y-0 z0)
+(Block-X: g1 x191 y0 z0)
+(Block-X: g1 x191 y120 z0)
+(Block-X: g1 x261 y120 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x82 y5.5
+g1 z-1 f100
+(entered)
+g1 x84 y5.5 z-1 f600
+g2 x84 y4.5 i0 j-0.5 z-1 
+g1 x82 y4.5 z-1
+g2 x82 y5.5 i0 j0.5 z-1 
+(pass -2.000000)
+g0 x82 y5.5
+g1 z-2 f100
+(entered)
+g1 x84 y5.5 z-2 f600
+g2 x84 y4.5 i0 j-0.5 z-2 
+g1 x82 y4.5 z-2
+g2 x82 y5.5 i0 j0.5 z-2 
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x92 y5
+g1 z-1 f100
+(entered)
+g2 x92 y5 i-1 j0 z-1  f600
+(pass -2.000000)
+g0 x92 y5
+g1 z-2 f100
+(entered)
+g2 x92 y5 i-1 j0 z-2  f600
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x83 y33.3
+g1 z-1 f100
+(entered)
+g1 x94 y33.3 z-1 f600
+g1 x94 y16 z-1
+g1 x83 y16 z-1
+g1 x83 y33.3 z-1
+(pass -2.000000)
+g0 x83 y33.3
+g1 z-2 f100
+(entered)
+g1 x94 y33.3 z-2 f600
+g1 x94 y16 z-2
+g1 x83 y16 z-2
+g1 x83 y33.3 z-2
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x106 y16
+g1 z-1 f100
+(entered)
+g1 x144 y16 z-1 f600
+g1 x144 y10 z-1
+g1 x106 y10 z-1
+g1 x106 y16 z-1
+(pass -2.000000)
+g0 x106 y16
+g1 z-2 f100
+(entered)
+g1 x144 y16 z-2 f600
+g1 x144 y10 z-2
+g1 x106 y10 z-2
+g1 x106 y16 z-2
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x107.71 y35.57
+g1 z-1 f100
+(entered)
+g1 x136.71 y35.57 z-1 f600
+g1 x136.71 y25.27 z-1
+g1 x107.71 y25.27 z-1
+g1 x107.71 y35.57 z-1
+(pass -2.000000)
+g0 x107.71 y35.57
+g1 z-2 f100
+(entered)
+g1 x136.71 y35.57 z-2 f600
+g1 x136.71 y25.27 z-2
+g1 x107.71 y25.27 z-2
+g1 x107.71 y35.57 z-2
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x157.2 y30.5
+g1 z-1 f100
+(entered)
+g2 x157.2 y30.5 i-3.5 j0 z-1  f600
+(pass -2.000000)
+g0 x157.2 y30.5
+g1 z-2 f100
+(entered)
+g2 x157.2 y30.5 i-3.5 j0 z-2  f600
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x156.595 y14.6
+g1 z-1 f100
+(entered)
+g2 x156.595 y14.6 i-2.5 j0 z-1  f600
+(pass -2.000000)
+g0 x156.595 y14.6
+g1 z-2 f100
+(entered)
+g2 x156.595 y14.6 i-2.5 j0 z-2  f600
+(exiting)
+g0 z3
+(Block-name: Shape2DView002 [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x163.7 y31
+g1 z-1 f100
+(entered)
+g1 x165.7 y31 z-1 f600
+g2 x165.7 y30 i0 j-0.5 z-1 
+g1 x163.7 y30 z-1
+g2 x163.7 y31 i0 j0.5 z-1 
+(pass -2.000000)
+g0 x163.7 y31
+g1 z-2 f100
+(entered)
+g1 x165.7 y31 z-2 f600
+g2 x165.7 y30 i0 j-0.5 z-2 
+g1 x163.7 y30 z-2
+g2 x163.7 y31 i0 j0.5 z-2 
+(exiting)
+g0 z3
+(Block-name: Body [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x197.135 y28.835
+g1 z-1 f100
+(entered)
+g1 x195.135 y28.835 z-1 f600
+g2 x195.135 y29.435 i0 j0.3 z-1 
+g1 x197.135 y29.435 z-1
+g2 x197.135 y28.835 i0 j-0.3 z-1 
+(pass -2.000000)
+g0 x197.135 y28.835
+g1 z-2 f100
+(entered)
+g1 x195.135 y28.835 z-2 f600
+g2 x195.135 y29.435 i0 j0.3 z-2 
+g1 x197.135 y29.435 z-2
+g2 x197.135 y28.835 i0 j-0.3 z-2 
+(exiting)
+g0 z3
+(Block-name: Body [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x246.135 y28.835
+g1 z-1 f100
+(entered)
+g1 x244.135 y28.835 z-1 f600
+g2 x244.135 y29.435 i0 j0.3 z-1 
+g1 x246.135 y29.435 z-1
+g2 x246.135 y28.835 i0 j-0.3 z-1 
+(pass -2.000000)
+g0 x246.135 y28.835
+g1 z-2 f100
+(entered)
+g1 x244.135 y28.835 z-2 f600
+g2 x244.135 y29.435 i0 j0.3 z-2 
+g1 x246.135 y29.435 z-2
+g2 x246.135 y28.835 i0 j-0.3 z-2 
+(exiting)
+g0 z3
+(Block-name: Body [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x246.135 y86.835
+g1 z-1 f100
+(entered)
+g1 x244.135 y86.835 z-1 f600
+g2 x244.135 y87.435 i0 j0.3 z-1 
+g1 x246.135 y87.435 z-1
+g2 x246.135 y86.835 i0 j-0.3 z-1 
+(pass -2.000000)
+g0 x246.135 y86.835
+g1 z-2 f100
+(entered)
+g1 x244.135 y86.835 z-2 f600
+g2 x244.135 y87.435 i0 j0.3 z-2 
+g1 x246.135 y87.435 z-2
+g2 x246.135 y86.835 i0 j-0.3 z-2 
+(exiting)
+g0 z3
+(Block-name: Body [in,conventional,cw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x197.135 y86.835
+g1 z-1 f100
+(entered)
+g1 x195.135 y86.835 z-1 f600
+g2 x195.135 y87.435 i0 j0.3 z-1 
+g1 x197.135 y87.435 z-1
+g2 x197.135 y86.835 i0 j-0.3 z-1 
+(pass -2.000000)
+g0 x197.135 y86.835
+g1 z-2 f100
+(entered)
+g1 x195.135 y86.835 z-2 f600
+g2 x195.135 y87.435 i0 j0.3 z-2 
+g1 x197.135 y87.435 z-2
+g2 x197.135 y86.835 i0 j-0.3 z-2 
+(exiting)
+g0 z3
+(Block-name: Body [out,conventional,ccw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x262 y-0
+g1 z-1 f100
+(entered)
+g1 x262 y120 z-1 f600
+g3 x261 y121 i-1 j0 z-1 
+g1 x191 y121 z-1
+g3 x190 y120 i0 j-1 z-1 
+g1 x190 y0 z-1
+g3 x191 y-1 i1 j0 z-1 
+g1 x261 y-1 z-1
+g3 x262 y-0 i0 j1 z-1 
+g2 x261 y-1 i-1 j0 z-1 
+g1 x191 y-1 z-1
+g2 x190 y0 i0 j1 z-1 
+(pass -2.000000)
+g0 x190 y0
+g1 z-2 f100
+(entered)
+g3 x191 y-1 i1 j0 z-2  f600
+g1 x261 y-1 z-2
+g3 x262 y-0 i0 j1 z-2 
+g2 x261 y-1 i-1 j0 z-2 
+g1 x191 y-1 z-2
+g2 x190 y0 i0 j1 z-2 
+g1 x190 y120 z-2
+g2 x191 y121 i1 j0 z-2 
+g1 x261 y121 z-2
+g2 x262 y120 i0 j-1 z-2 
+g1 x262 y-0 z-2
+(exiting)
+g0 z3
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x261 y-0)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x191 y0 z0 f400)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x246.135 y27.835)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x244.135 y27.835 z0 f400)
+(Block-X: g2 x244.135 y30.435 i0 j1.3 z0 )
+(Block-X: g1 x246.135 y30.435 z0)
+(Block-X: g2 x246.135 y27.835 i0 j-1.3 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x197.135 y27.835)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x195.135 y27.835 z0 f400)
+(Block-X: g2 x195.135 y30.435 i0 j1.3 z0 )
+(Block-X: g1 x197.135 y30.435 z0)
+(Block-X: g2 x197.135 y27.835 i0 j-1.3 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x246.135 y85.835)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x244.135 y85.835 z0 f400)
+(Block-X: g2 x244.135 y88.435 i0 j1.3 z0 )
+(Block-X: g1 x246.135 y88.435 z0)
+(Block-X: g2 x246.135 y85.835 i0 j-1.3 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Body)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x197.135 y85.835)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x195.135 y85.835 z0 f400)
+(Block-X: g2 x195.135 y88.435 i0 j1.3 z0 )
+(Block-X: g1 x197.135 y88.435 z0)
+(Block-X: g2 x197.135 y85.835 i0 j-1.3 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Pad005)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x0 y0)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x0 y120 z0 f400)
+(Block-X: g1 x70 y120 z0)
+(Block-X: g1 x70 y0 z0)
+(Block-X: g1 x0 y0 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView001)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x72 y65.27)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x72 y120 z0 f400)
+(Block-X: g1 x188.73 y120 z0)
+(Block-X: g1 x188.73 y65.27 z0)
+(Block-X: g1 x72 y65.27 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView001 [out,conventional,ccw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x71 y65.27
+g1 z-1 f100
+(entered)
+g3 x72 y64.27 i1 j0 z-1  f600
+g1 x188.73 y64.27 z-1
+g3 x189.73 y65.27 i0 j1 z-1 
+g1 x189.73 y120 z-1
+g3 x188.73 y121 i-1 j0 z-1 
+g1 x72 y121 z-1
+g3 x71 y120 i0 j-1 z-1 
+g1 x71 y65.27 z-1
+(pass -2.000000)
+g0 x71 y65.27
+g1 z-2 f100
+(entered)
+g3 x72 y64.27 i1 j0 z-2  f600
+g1 x188.73 y64.27 z-2
+g3 x189.73 y65.27 i0 j1 z-2 
+g1 x189.73 y120 z-2
+g3 x188.73 y121 i-1 j0 z-2 
+g1 x72 y121 z-2
+g3 x71 y120 i0 j-1 z-2 
+g1 x71 y65.27 z-2
+(exiting)
+g0 z3
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x72 y54.73)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x188.73 y54.73 z0 f400)
+(Block-X: g1 x188.73 y-0 z0)
+(Block-X: g1 x72 y0 z0)
+(Block-X: g1 x72 y54.73 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002 [out,conventional,ccw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x72 y55.73
+g1 z-1 f100
+(entered)
+g3 x71 y54.73 i0 j-1 z-1  f600
+g1 x71 y0 z-1
+g3 x72 y-1 i1 j0 z-1 
+g1 x188.73 y-1 z-1
+g3 x189.73 y0 i0 j1 z-1 
+g1 x189.73 y54.73 z-1
+g3 x188.73 y55.73 i-1 j0 z-1 
+g1 x72 y55.73 z-1
+(pass -2.000000)
+g0 x72 y55.73
+g1 z-2 f100
+(entered)
+g3 x71 y54.73 i0 j-1 z-2  f600
+g1 x71 y0 z-2
+g3 x72 y-1 i1 j0 z-2 
+g1 x188.73 y-1 z-2
+g3 x189.73 y0 i0 j1 z-2 
+g1 x189.73 y54.73 z-2
+g3 x188.73 y55.73 i-1 j0 z-2 
+g1 x72 y55.73 z-2
+(exiting)
+g0 z3
+(Block-name: Pad005 [out,conventional,ccw,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -1.000000)
+g0 z3
+g0 x-1 y0
+g1 z-1 f100
+(entered)
+g3 x0 y-1 i1 j0 z-1  f600
+g1 x70 y-1 z-1
+g3 x71 y0 i0 j1 z-1 
+g1 x71 y120 z-1
+g3 x70 y121 i-1 j0 z-1 
+g1 x0 y121 z-1
+g3 x-1 y120 i0 j-1 z-1 
+g1 x-1 y0 z-1
+(pass -2.000000)
+g0 x-1 y0
+g1 z-2 f100
+(entered)
+g3 x0 y-1 i1 j0 z-2  f600
+g1 x70 y-1 z-2
+g3 x71 y0 i0 j1 z-2 
+g1 x71 y120 z-2
+g3 x70 y121 i-1 j0 z-2 
+g1 x0 y121 z-2
+g3 x-1 y120 i0 j-1 z-2 
+g1 x-1 y0 z-2
+(exiting)
+g0 z3
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x105 y16)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x106 y17 i1 j0 z0  f400)
+(Block-X: g1 x144 y17 z0)
+(Block-X: g2 x145 y16 i0 j-1 z0 )
+(Block-X: g1 x145 y10 z0)
+(Block-X: g2 x144 y9 i-1 j0 z0 )
+(Block-X: g1 x106 y9 z0)
+(Block-X: g2 x105 y10 i0 j1 z0 )
+(Block-X: g1 x105 y16 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x106.71 y35.57)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x107.71 y36.57 i1 j0 z0  f400)
+(Block-X: g1 x136.71 y36.57 z0)
+(Block-X: g2 x137.71 y35.57 i0 j-1 z0 )
+(Block-X: g1 x137.71 y25.27 z0)
+(Block-X: g2 x136.71 y24.27 i-1 j0 z0 )
+(Block-X: g1 x107.71 y24.27 z0)
+(Block-X: g2 x106.71 y25.27 i0 j1 z0 )
+(Block-X: g1 x106.71 y35.57 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x82 y33.3)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x83 y34.3 i1 j0 z0  f400)
+(Block-X: g1 x94 y34.3 z0)
+(Block-X: g2 x95 y33.3 i0 j-1 z0 )
+(Block-X: g1 x95 y16 z0)
+(Block-X: g2 x94 y15 i-1 j0 z0 )
+(Block-X: g1 x83 y15 z0)
+(Block-X: g2 x82 y16 i0 j1 z0 )
+(Block-X: g1 x82 y33.3 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x158.2 y30.5)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x158.2 y30.5 i-4.5 j0 z0  f400)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x157.595 y14.6)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x157.595 y14.6 i-3.5 j0 z0  f400)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x82 y6.5)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x84 y6.5 z0 f400)
+(Block-X: g2 x84 y3.5 i0 j-1.5 z0 )
+(Block-X: g1 x82 y3.5 z0)
+(Block-X: g2 x82 y6.5 i0 j1.5 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x163.7 y32)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x165.7 y32 z0 f400)
+(Block-X: g2 x165.7 y29 i0 j-1.5 z0 )
+(Block-X: g1 x163.7 y29 z0)
+(Block-X: g2 x163.7 y32 i0 j1.5 z0 )
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Shape2DView002)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x93 y5)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x93 y5 i-2 j0 z0  f400)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+G0 Z10
+M5
