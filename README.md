@@ -68,6 +68,8 @@ In the front, you have the power inlet, and a second cutout for powering the att
 
 On the right, there are anouther cutout for the audio cable.
 
+The assembly does not include some (all) the models, hence they might violate copyright.
+
 ## Connection to the radio
 
 The hat comes with a DB9 connector to connect up your rig. I wanted to have a screw lock
