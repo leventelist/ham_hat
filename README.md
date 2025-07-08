@@ -56,6 +56,17 @@ The GPS is needed for APRS and time synchronization. There is an onbard RTC to h
 It is designed to fit on the Raspberry PI 4. Be aware, that if the heatsink on the CPU is too high, it might
 conflict with the screws of the fan. If that happens, mount the heatsink 45 degrees.
 
+### Box
+
+A box is designed in FreeCAD using sheets of PCB. The idea is to use bare, one sided PCBs, and solder the plates from the inside. The sheets can be easily milled by a CNC machine.
+
+![](images/view.png)
+
+There are several cutouts on the box.
+
+In the front, you have the power inlet, and a second cutout for powering the attached LCD screen. On the right side of the front sheet, there is a cutout for the power chord to the GPS antenna, if needed.
+
+On the right, there are anouther cutout for the audio cable.
 
 ## Connection to the radio
 
