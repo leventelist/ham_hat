@@ -147,15 +147,19 @@ You should see the RTC at **0x68**.
 ### Configure Linux to Use BQ32000
 ```bash
 sudo modprobe rtc-bq32k
-echo bq32000 0x68 | sudo tee /sys/class/i2c-adapter/i2c-1/new_device
+echo bq32000 0x68 | sudo tee /sys/class/i2c-dev/i2c-1/device/new_device
+
+# This next one line only needed to set initial time of the RTC
+# Otherwise it'll fail to read
+sudo hwclock -w
+
+# Test to read the RTC
 sudo hwclock -r
 ```
 
 ### Make It Persistent
-Edit `/boot/config.txt`:
-```bash
-sudo nano /boot/config.txt
-```
+Edit `/boot/firmware/config.txt`:
+
 Add the following line:
 ```
 dtoverlay=i2c-rtc,bq32000
