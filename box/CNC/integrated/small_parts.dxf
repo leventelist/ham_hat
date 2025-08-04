@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-97.48874510001869
+96.03928594055299
  22
-51.81625334091362
+53.83093734247556
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-174.1118848278574
+153.1327043340877
  41
 1.782956058588549
  42
@@ -4677,13 +4677,13 @@ rpi4_case_base-left
  45
 0
   0
-INSERT
+LINE
   5
 9C
 100
 AcDbEntity
   8
-0
+Shape2DView
   6
 ByLayer
  62
@@ -4691,31 +4691,863 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-rpi4_case_base-right-0
+AcDbLine
  10
-84.36499999999999
+111.73
  20
-35
- 30
+60
+ 11
+111.73
+ 21
+70
+  0
+LINE
+  5
+9D
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+111.73
+ 20
+70
+ 11
+57
+ 21
+70
+  0
+LINE
+  5
+9E
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57
+ 20
+70
+ 11
+57
+ 21
 0
- 41
-1
- 42
-1
- 43
+  0
+LINE
+  5
+9F
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57
+ 20
 0
+ 11
+111.73
+ 21
+0
+  0
+LINE
+  5
+A0
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+111.73
+ 20
+0
+ 11
+111.73
+ 21
+52
+  0
+LINE
+  5
+A1
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+111.73
+ 20
+52
+ 11
+110.73
+ 21
+52
+  0
+ARC
+  5
+A2
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+110.73
+ 20
+53.5
+ 40
+1.5
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+A3
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+109.23
+ 20
+58.5
+ 11
+109.23
+ 21
+53.5
+  0
+ARC
+  5
+A4
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+110.73
+ 20
+58.5
+ 40
+1.5
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+A5
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+111.73
+ 20
+60
+ 11
+110.73
+ 21
+60
+  0
+LINE
+  5
+A6
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+85
+ 20
+66.86499999999999
+ 11
+68
+ 21
+66.86499999999999
+  0
+ARC
+  5
+A7
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+65.86499999999999
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+A8
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+67
+ 20
+65.86499999999999
+ 11
+67
+ 21
+51.86499999999999
+  0
+ARC
+  5
+A9
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+51.86499999999999
+ 40
+1
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+AA
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+68
+ 20
+50.865
+ 11
+85
+ 21
+50.865
+  0
+ARC
+  5
+AB
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+85
+ 20
+51.86499999999999
+ 40
+1
+100
+AcDbArc
+ 50
+270
+ 51
+0
+  0
+LINE
+  5
+AC
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+86
+ 20
+51.86499999999999
+ 11
+86
+ 21
+65.86499999999999
+  0
+ARC
+  5
+AD
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+85
+ 20
+65.86499999999999
+ 40
+1
+100
+AcDbArc
  50
 0
- 70
-    1
- 71
-    1
- 44
+ 51
+90
+  0
+LINE
+  5
+AE
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+85
+ 20
+48.865
+ 11
+68
+ 21
+48.865
+  0
+ARC
+  5
+AF
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+47.865
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+B0
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+67
+ 20
+47.865
+ 11
+67
+ 21
+33.865
+  0
+ARC
+  5
+B1
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+33.865
+ 40
+1
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+B2
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+68
+ 20
+32.865
+ 11
+85
+ 21
+32.865
+  0
+ARC
+  5
+B3
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+85
+ 20
+33.865
+ 40
+1
+100
+AcDbArc
+ 50
+270
+ 51
 0
- 45
+  0
+LINE
+  5
+B4
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+86
+ 20
+33.865
+ 11
+86
+ 21
+47.865
+  0
+ARC
+  5
+B5
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+85
+ 20
+47.865
+ 40
+1
+100
+AcDbArc
+ 50
 0
+ 51
+90
+  0
+LINE
+  5
+B6
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+81.5
+ 20
+30.865
+ 11
+68
+ 21
+30.865
+  0
+ARC
+  5
+B7
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+29.865
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+B8
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+67
+ 20
+29.865
+ 11
+67
+ 21
+13.865
+  0
+ARC
+  5
+B9
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+68
+ 20
+13.865
+ 40
+1
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+BA
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+68
+ 20
+12.865
+ 11
+81.5
+ 21
+12.865
+  0
+ARC
+  5
+BB
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+81.5
+ 20
+13.865
+ 40
+1
+100
+AcDbArc
+ 50
+270
+ 51
+0
+  0
+LINE
+  5
+BC
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+82.5
+ 20
+13.865
+ 11
+82.5
+ 21
+29.865
+  0
+ARC
+  5
+BD
+100
+AcDbEntity
+  8
+Shape2DView
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+81.5
+ 20
+29.865
+ 40
+1
+100
+AcDbArc
+ 50
+0
+ 51
+90
   0
 ENDSEC
   0
@@ -4749,7 +5581,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-9D
+BE
 100
 AcDbPlotSettings
   6
