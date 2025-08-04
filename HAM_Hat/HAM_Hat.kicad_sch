@@ -12459,7 +12459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCW254-02S"
+		(property "Value" ""
 			(at 207.772 159.9946 0)
 			(effects
 				(font
@@ -13862,7 +13862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCW254-02S"
+		(property "Value" ""
 			(at 196.0372 238.633 0)
 			(effects
 				(font
@@ -16243,7 +16243,7 @@
 				)
 			)
 		)
-		(property "Value" "NCW200S-04R"
+		(property "Value" "~"
 			(at 243.84 123.19 0)
 			(effects
 				(font
@@ -16251,7 +16251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 243.84 132.08 0)
 			(effects
 				(font
@@ -16296,7 +16296,7 @@
 				(hide yes)
 			)
 		)
-		(property "id" "459"
+		(property "id" "0"
 			(at 243.84 132.08 0)
 			(effects
 				(font
