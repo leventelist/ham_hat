@@ -3570,6 +3570,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "default:levcsi_database/253"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" "0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "253"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/253_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/253_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "default:levcsi_database/258"
 			(pin_numbers
 				(hide yes)
@@ -3754,6 +3905,172 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "default:levcsi_database/340"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" "10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value3" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "id" "340"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "levcsi_database/340_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "levcsi_database/340_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6721,6 +7038,17 @@
 		)
 		(uuid "466d23aa-22e0-4ed3-909e-c3235d101a35")
 	)
+	(text "If used to control a HT radio, which has PTT and\nMIC in combined, mount C108 and R116.\n\nOthervise, leave R116 unpopulated, and mount a 0 Ohm resistor\nin place of C108."
+		(exclude_from_sim no)
+		(at 326.644 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "558573f3-ea5d-41c1-9b73-983c28386ffe")
+	)
 	(text "Galvanically isolated"
 		(exclude_from_sim no)
 		(at 373.38 243.84 0)
@@ -6916,6 +7244,12 @@
 		(uuid "182e1b39-c057-4be5-9057-111c43667fbe")
 	)
 	(junction
+		(at 335.28 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a155476-b255-4b7b-b748-dbff30b2ea53")
+	)
+	(junction
 		(at 295.91 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6956,6 +7290,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b2b7a35-a0fd-4b19-bbd7-dfed5b8a8799")
+	)
+	(junction
+		(at 335.28 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "556519d9-fca9-4858-abc6-6cc838fc042a")
 	)
 	(junction
 		(at 322.58 134.62)
@@ -7359,6 +7699,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.105 102.87) (xy 335.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e8a707-b29e-4990-80fe-aae314e0db0f")
+	)
+	(wire
+		(pts
 			(xy 167.64 254) (xy 162.56 254)
 		)
 		(stroke
@@ -7546,6 +7896,26 @@
 			(type default)
 		)
 		(uuid "2de554bc-f793-4e6b-89ce-0144cb8370c2")
+	)
+	(wire
+		(pts
+			(xy 335.28 113.665) (xy 335.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0375f2-4c6f-485c-94f1-cd1308ed7ad5")
+	)
+	(wire
+		(pts
+			(xy 335.28 170.18) (xy 349.25 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed04d37-b36b-4c6d-ab4d-d04465ec157f")
 	)
 	(wire
 		(pts
@@ -8219,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 102.87) (xy 344.17 102.87)
+			(xy 322.58 102.87) (xy 324.485 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8456,6 +8826,16 @@
 			(type default)
 		)
 		(uuid "96ce6e95-f174-4455-b059-74ccbe994995")
+	)
+	(wire
+		(pts
+			(xy 335.28 102.87) (xy 344.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9852290d-97ce-4f3e-b03b-3ea2323eb778")
 	)
 	(wire
 		(pts
@@ -9049,7 +9429,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 170.18) (xy 349.25 170.18)
+			(xy 318.77 170.18) (xy 335.28 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9329,6 +9709,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 102.87) (xy 335.28 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b7a6ef-3bf5-40e3-bb41-e6ffb7daa033")
+	)
+	(wire
+		(pts
 			(xy 191.77 229.87) (xy 191.77 232.41)
 		)
 		(stroke
@@ -9538,7 +9928,7 @@
 		(uuid "3ba11a95-9287-42bf-9cfe-35e78553186e")
 	)
 	(label "TX_OUT"
-		(at 330.2 102.87 0)
+		(at 346.71 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9868,7 +10258,7 @@
 		(uuid "d5f4f861-4a67-4509-b308-b0d6046bf300")
 	)
 	(label "RX_IN"
-		(at 332.74 134.62 0)
+		(at 327.025 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11312,7 +11702,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 351.2058 116.967 0)
+			(at 350.012 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 207.772 159.9946 0)
 			(effects
 				(font
@@ -13862,7 +14252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 196.0372 238.633 0)
 			(effects
 				(font
@@ -15983,6 +16373,103 @@
 		)
 	)
 	(symbol
+		(lib_id "default:levcsi_database/253")
+		(at 335.28 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da643ac-06ee-4456-9d49-7566385d6ddb")
+		(property "Reference" "R116"
+			(at 337.82 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 337.82 111.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 333.502 109.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "0.1W"
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" "1%"
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "253"
+			(at 335.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "522fac37-5187-4ce8-bf4f-6a5e0215877b")
+		)
+		(pin "1"
+			(uuid "1657aca0-cba7-4c97-8083-b4430e161e8c")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "default:levcsi_database/390")
 		(at 278.13 175.26 180)
 		(unit 1)
@@ -16074,6 +16561,101 @@
 			(project ""
 				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
 					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "default:levcsi_database/340")
+		(at 328.295 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7047a04b-1479-4992-8771-68164054109d")
+		(property "Reference" "C108"
+			(at 328.295 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 328.295 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 332.105 101.9048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.295 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 328.295 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "10V"
+			(at 328.295 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value3" ""
+			(at 328.295 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "id" "340"
+			(at 328.295 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4133061f-109d-462a-b1a6-2f97a6851264")
+		)
+		(pin "1"
+			(uuid "d7b55d26-25dd-4192-a605-9881e998b898")
+		)
+		(instances
+			(project ""
+				(path "/d746ec70-4f38-4eaf-8576-334127e7f74a"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -16243,7 +16825,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 243.84 123.19 0)
 			(effects
 				(font
@@ -16260,7 +16842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 243.84 132.08 0)
 			(effects
 				(font

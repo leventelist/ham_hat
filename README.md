@@ -48,6 +48,21 @@ directly to the audio interface (J109).
 
 The GPS is needed for APRS and time synchronization. There is an onbard RTC to have some redundancy.
 
+## Placing variants
+
+There are a few components that mounted or unmounted depending on particular application.
+
+### HT radio
+
+When this device is used with a handheld radio, that has a PTT and mic input (Like the FT-4X), mount C108 and R116. Please note that the value of R116 might vary based on the actual transceiver used.
+
+If used with a radio that has separate input for audio and PTT, mount a 0 Ohm resistor to C108. You might also leave C108 as a capacitor (22uF), but it is not really needed.
+
+C108 and R116 is placed on the layout that it can be mounted or replaced after everything else is mounted too. All you need is the dismount tha cooling fan.
+
+### High bandwidth audio
+
+If you want to have direct access to the audio interface of your radio, you can leave T101 and T102 unpopulated and short JP102 and JP103, JP104. Please note that you will loose GND separation as well.
 
 ## Mechanics
 
