@@ -102,9 +102,14 @@ connector, and this was the best choice. The pin out looks like this.
 | GND         | 8              | Audio ground             |
 | GND         | 9              | Audio ground             |
 
-PTT is connected to GPIO17. It is buffered, and logic one means transmit.
+### GPIO connections
 
-KEY is connected to GPIO21 of the PI.
+
+| Signal name | GPIO | Commnet |
+|-------------|------|---------|
+| PTT         | 12   |         |
+| KEY         | 21   |         |
+| DCD         | 16   |         |
 
 
 ## Connection to the soundcard
