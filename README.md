@@ -231,7 +231,7 @@ and the GPIO pin which is 13.
 
 ## Shutdown button can be connected to J106
 
-To make it work, you have to add these lines to /boot/config
+To make it work, you have to add these lines to /boot/firmware/config,txt
 
 ```
 dtoverlay=gpio-shutdown,gpio_pin=26
