@@ -1,0 +1,10 @@
+Description=Sync RTC to system clock at boot
+Before=sysinit.target
+DefaultDependencies=no
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/hwclock --hctosys --verbose
+
+[Install]
+WantedBy=sysinit.target

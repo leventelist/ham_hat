@@ -200,6 +200,16 @@ Edit `/lib/udev/hwclock-set` and comment out:
 #    exit 0
 #fi
 ```
+```bash
+apt remove fake-hwclock
+```
+
+### Create a systemd service to set system clock from RTC
+
+/etc/systemd/system/rtc-sync.service
+
+The content of this file attached.
+
 
 ### Sync RTC with System Time
 Set RTC from system time:
